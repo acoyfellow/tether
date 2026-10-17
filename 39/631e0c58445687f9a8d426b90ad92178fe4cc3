@@ -1,0 +1,83 @@
+.gitignore
+  s_5ddfc8f4108175::t_367e12fe95848e 1-10
+.wrangler/tmp/bundle-3keQtE/middleware-insertion-facade.js
+  s_5ddfc8f4108175::t_16e0f1685892bf 1-10
+.wrangler/tmp/bundle-3keQtE/middleware-loader.entry.ts
+  s_5ddfc8f4108175::t_7ef878bf154537 1-134
+.wrangler/tmp/dev-D2JzCx/index.js
+  s_5ddfc8f4108175::t_8536b6d9a832ce 1-12640
+.wrangler/tmp/dev-D2JzCx/index.js.map
+  s_5ddfc8f4108175::t_e00afc04bc4756 1-8
+alchemy.run.ts
+  s_5ddfc8f4108175::t_58c124b8a9af3a 1-34
+bunfig.toml
+  s_2065c5125668b9::t_ed6ba49e2f319e 1-5
+client/index.html
+  s_2065c5125668b9::t_95a5f914aecf2a 1-16
+client/src/command.ts
+  s_2065c5125668b9::t_72b95be41c40f8 1-30
+client/src/entry.ts
+  s_2065c5125668b9::t_9fad1fc4e49a60 1-22
+client/src/examples.ts
+  s_2065c5125668b9::t_825e1227989323 1-38
+client/src/message.ts
+  s_2065c5125668b9::t_5f29be8f1c8d8c 1-15
+client/src/model.ts
+  s_2065c5125668b9::t_9a3add2d94a1f0 1-47
+client/src/styles.css
+  s_2065c5125668b9::t_6a76eb2a6ec7f3 1-21
+client/src/update.ts
+  s_2065c5125668b9::t_8957fc5eb7d76f 1-35
+client/src/view.ts
+  s_5ddfc8f4108175::t_9e4e0554bc13d3 1-180
+client/vite.config.ts
+  s_2065c5125668b9::t_f20d8d141dff31 1-10
+gate.sh
+  s_5ddfc8f4108175::t_afbf91a3999d46 1-25
+package-lock.json
+  s_2065c5125668b9::t_7c5a505c0d24d9 1-5070
+package.json
+  s_5ddfc8f4108175::t_0472bf8509e4fb 1-34
+receipts/demo.json
+  s_5ddfc8f4108175::t_74bfc692de389b 1-347
+receipts/deployed-url.txt
+  s_5ddfc8f4108175::t_1d4bdc1052664d 1
+src/check.ts
+  s_5ddfc8f4108175::t_1dcb6fc787d805 1-85
+src/claims.ts
+  s_5ddfc8f4108175::t_ec90d09049a8f0 1-90
+src/index.ts
+  s_2065c5125668b9::t_d2f1be11c8b2f5 1-45
+src/tether.ts
+  s_5ddfc8f4108175::t_cf191054bd4917 1-73
+test/check.test.ts
+  s_5ddfc8f4108175::t_7e7047523a7d95 1-136
+tsconfig.json
+  s_2065c5125668b9::t_f77b9e29851cc1 1-18
+wrangler.dev.jsonc
+  s_2065c5125668b9::t_cdac4383d8d2a0 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "39631e0c58445687f9a8d426b90ad92178fe4cc3",
+  "prompts": {},
+  "sessions": {
+    "s_2065c5125668b9": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a11c9e-fbb7-7768-b17a-0b53daf78bb6",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
