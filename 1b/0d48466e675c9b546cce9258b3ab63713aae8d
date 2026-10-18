@@ -1,0 +1,21 @@
+alchemy.run.ts
+  s_5ddfc8f4108175::t_31e7d77b564df3 30
+receipts/deployed-url.txt
+  s_5ddfc8f4108175::t_a48f6c6dfe2871 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1b0d48466e675c9b546cce9258b3ab63713aae8d",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
