@@ -1,0 +1,31 @@
+alchemy.run.ts
+  s_717165f38a3aa2::t_ee4c28c045c603 17-19,29-31
+client/src/command.ts
+  s_717165f38a3aa2::t_2e296221ead6b7 2,10-14,33
+client/src/update.ts
+  s_717165f38a3aa2::t_cbedde35e6808a 5,14-19,24-29
+client/src/view.ts
+  s_717165f38a3aa2::t_1fc1d880a3777d 1,99-105,108
+src/index.ts
+  s_717165f38a3aa2::t_4916536c98ff44 3,7
+src/tether.ts
+  s_717165f38a3aa2::t_ac65d6fc6d20c5 72-74,77
+test/check.test.ts
+  s_717165f38a3aa2::t_1bf6c05caaae23 2,10,48-52,60-61,64,127-129,131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4f5aa2075c9a2ef85256a47f8b55ee5795983a53",
+  "prompts": {},
+  "sessions": {
+    "s_717165f38a3aa2": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a14ee4-687c-718a-9e79-423d9d1ed0da",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
