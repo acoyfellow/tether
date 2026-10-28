@@ -57,7 +57,7 @@ rm -rf "$clone"
 
 echo "== hygiene"
 git ls-files | grep -E '(^|/)\.real/' && fail ".real is tracked"
-if git grep -nE 'cfdata\.org|@cloudflare\.com|cf-access-client-secret|BEGIN [A-Z ]*PRIVATE KEY|[A-Za-z0-9_-]{40}\.[A-Za-z0-9_-]{20,}' -- . ':!package-lock.json' ':!tools/'; then
+if git grep -nE 'cfdata\.org|@cloudflare\.com|cf-access-client-secret|BEGIN [A-Z ]*PRIVATE KEY|[A-Za-z0-9_-]{40}\.[A-Za-z0-9_-]{20,}' -- . ':!package-lock.json' ':!tools/' ':!proof/gate.sh'; then
   fail "secret or employee-internal text in tree"
 fi
 bun eval/no-raw-text.ts || fail "raw session text found in tree"
