@@ -1,0 +1,40 @@
+LOOP.md
+  s_5f045b53b1dfb4::t_3e8391b4ce5e85 9
+eval/verify-frozen.ts
+  s_5f045b53b1dfb4::t_7c5ddc9be82eb5 1-45
+proof/gate.sh
+  s_5f045b53b1dfb4::t_45b92cc762ab5a 13
+  s_5f045b53b1dfb4::t_c33f7a29a772a0 1-12,14-64
+eval/no-raw-text.ts
+  s_5f045b53b1dfb4::t_9e808c40bb1cdc 1-42
+eval/build.ts
+  s_5f045b53b1dfb4::t_d34dbd958929e4 34,38,46,51,57,65,74,77,81,84,87-88,90,94,97,99,101,113,128
+eval/freeze-code.ts
+  s_5f045b53b1dfb4::t_58c20b0777faf4 10,12
+eval/frozen.json
+  s_5f045b53b1dfb4::t_e99fa5102e1b11 2,4-5,976-978,981
+eval/mine.ts
+  s_5f045b53b1dfb4::t_735c82e40d6e29 6,13,37,39,41-42,44-49,56,60,62,71,73,84,93,96,99,103,108,117
+eval/run.ts
+  s_5f045b53b1dfb4::t_87b9c7b386aedf 46,53,61,67,71,79,82,87,91,97
+eval/score.ts
+  s_5f045b53b1dfb4::t_0353088129a0b2 46-48,70,75,79
+eval/systems.ts
+  s_5f045b53b1dfb4::t_551f2be2029caa 17,47,52,87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "049d9cd719483344699eb02b0cc2de8d9085b6b8",
+  "prompts": {},
+  "sessions": {
+    "s_5f045b53b1dfb4": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a177a9-20df-71ac-82c2-3c2b52888d76",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
