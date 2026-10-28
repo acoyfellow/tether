@@ -1,0 +1,33 @@
+LOOP.md
+  s_5f045b53b1dfb4::t_53ebe9e6b56715 1-20
+eval/mine.ts
+  s_5f045b53b1dfb4::t_8094577a03f6de 1-4,7,9,23-35,47,50-80,86-116
+  s_5f045b53b1dfb4::t_7143b4536608d3 5-6,8,10-22,36-46,48-49,81-85
+eval/build.ts
+  s_5f045b53b1dfb4::t_8cc6005d0fa702 4,7-19,42,46-51,63,84-85,93
+  s_5f045b53b1dfb4::t_1f0f4ac84e6566 1-3,5-6,20-41,43-45,52-62,64-83,86-92,94-113
+eval/RULE.md
+  s_5f045b53b1dfb4::t_f0800f9bdb2a61 1-45
+eval/bun-meta.d.ts
+  s_5f045b53b1dfb4::t_4ee4b355469d39 1-4
+eval/frozen.json
+  s_5f045b53b1dfb4::t_0078f1fd1ce656 1-975
+tsconfig.eval.json
+  s_5f045b53b1dfb4::t_4166d51693c757 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "cee090d304b98f2fdc726a4010382b664d9eec48",
+  "prompts": {},
+  "sessions": {
+    "s_5f045b53b1dfb4": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a177a9-20df-71ac-82c2-3c2b52888d76",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
