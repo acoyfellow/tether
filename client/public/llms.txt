@@ -1,0 +1,15 @@
+# tether
+
+> Check what an agent says it did against the output it did it with. Eval verdict: disproven.
+
+## Docs
+
+- [How it works](https://tether.customer0.dev/docs/how-it-works.md)
+- [API](https://tether.customer0.dev/docs/api.md)
+- [Eval](https://tether.customer0.dev/docs/eval.md)
+- [Design](https://tether.customer0.dev/docs/design.md)
+- [Limits](https://tether.customer0.dev/docs/limits.md)
+
+## Source
+
+- [GitHub](https://github.com/acoyfellow/tether)

@@ -1,0 +1,992 @@
+{
+ "frozenAt": "2026-10-28T20:17:14.374Z",
+ "rule": "4399d252ea1cbda7deb835680b262ba2bb4b70e9b2775ab02884d88da1c856fc",
+ "build": "494a2797a38a920fd1a892d8d963694933e53bc77282148e1cf6d03da7d37f0b",
+ "mine": "2fc82dab285cff1644f3a54c06672f060e4956f35d6deae8c3e3b6995ecc4108",
+ "cases": "4023315c921acc685a04ad62678e80b54cc8cb1cac97e61d6d9b957be13a879a",
+ "caseIds": [
+  {
+   "id": "a5156f989a04-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "5ebfd738067380fb150262b042b6178fa4fb370b1c8badd0b7b78d7d8d8f5a34",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "222fa1c2b26f-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "c64c2285b17ba3ae408c3d1c052ce5861e3a76d59fa159db8a884657710de565",
+   "evidence": "ce67f49935f51af8ef7dd652e18c853eed826d12239cbffe35a24afd23f9133e"
+  },
+  {
+   "id": "1843ced606fd-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "97080ebb401bcb747cee5bde38bfad2a566cdc92bf890cda886de1a9d195a616",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "df0cd0aa09c3-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "1b682040777d2dc7ca72c97c5641730fc05d3a1d3bba894307d86962be50db5d",
+   "evidence": "eb9a2c083e8434b0abefe85c8340ac1728908686b29da0e1024081d1be02024c"
+  },
+  {
+   "id": "c19e4a8efe44-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "84bbf15b4c2401045963383b13145de190729a1d8c7a3733bc9eccaa13cc77a6",
+   "evidence": "a0dbe03ab530b58fbd879c47a106b1a583de904b3626c09e822e923521b3f308"
+  },
+  {
+   "id": "3ada4fc8d0a7-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "0292827ebdcf17b18c7ae66527852032207b1f00aaae189e66e82f638930dd3e",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "592201b04a07-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "d08a227b0a1d6632065c1e6ffe56f49000c8d61502096e6baa165a2ef153e0d7",
+   "evidence": "f1132a50dbf16581e67ae7c07f8ff82a9f1d81e7ae733752080f5739f83e5c28"
+  },
+  {
+   "id": "da304212bab4-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "976b654555ba1609aa468a0f380ffbb5ffaa66375b322ed8cba29ae2f2d25cc3",
+   "evidence": "0a601ff35e8a6e08819e0706c3cbf907d59e068b0c22d20f286738abdf453ec1"
+  },
+  {
+   "id": "e86730e6bfb1-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "b7d0ea629ce30b27d4268a4f254d572a21a4866a68738d8c68d9866f95dea63c",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "dbd2d97161d4-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "b9aff8efaf5fef5eb112de893f8b69990a80c58eb0b18116a7ccf085fd9b69a1",
+   "evidence": "7f32518bcd1f153e011129c25c5ca087350e37580b16a32f2fc9bf915fb242cf"
+  },
+  {
+   "id": "99f56d5e923c-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "0bdefdfff957bbf6f69002b843ca2acbbf35d23b2d61854ebf3e72dccf063c69",
+   "evidence": "f3ee2db18b2f65d7af1f09c8ff8be8882fb32b2de354318622f879d2b0dd1c22"
+  },
+  {
+   "id": "35633da553e2-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "c1b7046ed28310f216f3d93cf19e6d90265fd4b377087f19d4fea56b5a1a3781",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "40075401104e-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "b0a2f390237245c3c53b8855856c412755784da46ea468dc108d81638e102398",
+   "evidence": "9030e998bec4a17205a7a64ab8619ee149fe7f72707b268b2ccaf63d5b604c20"
+  },
+  {
+   "id": "5407a5ddf2f3-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "db01f36c55bfabdfd6f04baff108ca8fa1b99c3d41220ef86004b2ed2aa7beaf",
+   "evidence": "f8c51da5f38c8a5d26932958f09f1a28099b4d8a11c6c44ec0e9d943e8c20859"
+  },
+  {
+   "id": "ebf210dc4f4b-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "e3f2d7e7e91f61516d80a6854ea312dd3559aad43f1de218edf455db9bc64ef2",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "84842cb58e59-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "9a471add63a3149f075fec6f59ef9e2fe4ed3165bb3eae9867879becd8bb131c",
+   "evidence": "a22a7037773a9577edb9363dee27edc7507af71340a672f8acd0fb1531b5e1ee"
+  },
+  {
+   "id": "f6e93104eb9d-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "8314ec7c05aa0dfad1fdc18c68b40958bf246e533f428a05870e28c2b05242aa",
+   "evidence": "1f86335c35533f9c438de3f97d8bbeee2ac013df80df0bd44d9fc2524b386f55"
+  },
+  {
+   "id": "dca40fdee44a-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "be45ddf3cdd7c2462c06f70c26afcc747f3cc99ca931818a60377b73550df8d2",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "685baf66655b-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "397b1a77bf3f4539a5fabc087dfa60000d7b307812b610edaa80fbf6f99565d6",
+   "evidence": "6bb8d2b26a498e169a3ba1c394247715807d77e88a699a6937251ea50d852d13"
+  },
+  {
+   "id": "d98215c67efd-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "bacd21f1e515c3507aa3e79910121dac24959c8702f2685e926eb657f8604b26",
+   "evidence": "ae5dd848326f2221d0c6d60000acf86e37b02054f065cd3506adc2568f4ed98c"
+  },
+  {
+   "id": "afd8c1a35201-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "9376564478324f2e2e28979db01f3d0fce180b9572efefd299e1cf8862e34045",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "3769bd989c4f-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "afc24e1c57708d4289d373acec80fdeabfd18a96956aad10db76e2266fac847d",
+   "evidence": "121348b5e8f9a774433605b09691cd28d20bb8abf4a4d9f6df5d266b0ddf9062"
+  },
+  {
+   "id": "59f250ae5f47-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "a8541c7bac2cd11de51c61468129e4e3b7c172e025e55ca6a345468bf09df55b",
+   "evidence": "4cd27e26f3c08ee70b7f804464d4213d4592b4add251e882edb498e12bbc5edf"
+  },
+  {
+   "id": "928408978c3f-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "ab116df51eb059685766aaacc1a65585eb5ee0696ee0d8f24c70abd4e42cc0e8",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "61e2ac7cf6e9-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "02deb81b61b2d03c9966f57655225a090827c0957b5a5185c60954a0270638d2",
+   "evidence": "ebc68042f30dbd7ca555e34a09bd691994f38ae36a46ddeac6517d9bde67a3f3"
+  },
+  {
+   "id": "5694fc8484cb-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "6a48c0f9b65a6733bed75cbfdbfc78e97d68d90d3a12da038c0195a42404c9d7",
+   "evidence": "1507e26318bd2ae382173ab6998871d1fe5fff7a665e1ffc167001b04b892fb1"
+  },
+  {
+   "id": "49eca7974f66-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "c1c39f1a9da9fe118a7f52efc730683cc92294348462d394f0f1a91a7bd528d1",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "745ecd0569a6-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "87070805448d21502ccc720799f0fc013dec894c4b78026325ac350085f45588",
+   "evidence": "d54cfe497fb3fcb206a9092c5ed2da9d06aed626930ff68d90677d1cb25b45f9"
+  },
+  {
+   "id": "69b6ce01092f-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "5dc53087e9a42a4c7a34def91cebfe2e51acad9d8d58fc7b7928c073377e19d6",
+   "evidence": "8c78658bfb11f2be2572e25fde79ed77a01e01ad735cf21a05fca2051734c565"
+  },
+  {
+   "id": "46880390484d-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "0c90bcf63cfd8ad256228aaf32865025d8eed5a9293b4b3d703932b03082cb2a",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "5abba2be8872-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "f9be34b3f486a374de7cf32f5064bf6fb7696623bb1c771a44b9c18af2436d6f",
+   "evidence": "90ee19a8b6eea4f40bf1242f7ac486b00743e3d7b7ff3e4d14d27c510d3ba96c"
+  },
+  {
+   "id": "8e8bb967880f-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "0cd12c317be8299b478cf28ba05999ecfaeaeeb6c4370cfd0e00cd5451673637",
+   "evidence": "59e698bfa17edc963a84f2fcc9b880561dcbd8c01b0f9d3f31b1a32bd16bfca7"
+  },
+  {
+   "id": "eca395d0b7c4-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "2ca68b8cd97dd3df7a87659c0287616c28b12dc1a962a42a6068861bdf3ac47e",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "f79aa83d8e79-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "e081a0fcf366ee02f9e0671a02c46d94430287c993d35018af5a5140076b86a6",
+   "evidence": "9c916f81f621ebf4cca519d22ceb2cb45285e635fc29ae2c271ae507a9d6097b"
+  },
+  {
+   "id": "18f4b963f30f-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "81f10e359e0c579a5e8740ea21f27851d5668002f5d853fce01cd33897367547",
+   "evidence": "8cc10e6993bab1825776415c0535f40f83c55a246a7dbffef7ca42f6c6b8a338"
+  },
+  {
+   "id": "1059f55c185d-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "bdea9f987502227e93d3e972cb3f60600c0dfc23164a7086988561c0ea943878",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "dadae9e11360-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "a6da7ba5d7640587b51e4a46f36fcd0411854ebf8ac8429b43d3b8ec62c7f6da",
+   "evidence": "d827248d1eaddab51ffea14e15a61736900cfac4657bff96eabce0fc492c3536"
+  },
+  {
+   "id": "4b0143eb8bd7-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "5bec17cce123cec37e000108b94110ce9ddca1aba1381ebb92eb6184e7395f08",
+   "evidence": "c38618d2585de43645435fff173309e021f02b2c4194c1cd11e68b318b25fd3c"
+  },
+  {
+   "id": "559a8232c8cc-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "9aa7c4dce0d3b1e22b798dc471f3f1ca33a1fb333c2c4d5c7c9b0fed674ef9c3",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "37fa6ce379f3-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "7db42202e125e78b90aa2464fb76ee8794eff46757a94c84ecc3a11d670d022d",
+   "evidence": "b151e7dab295f06f2c9c86f737b5dfdc9c3fbb17294180983145356a56e8d130"
+  },
+  {
+   "id": "7be03c26e09b-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "2e746675a72626b3fe3cec2edaacff3cd0e3f24206521f0dc15ef4d15e713bff",
+   "evidence": "8b5b8476140e341caf92c33407ff03595e4b3b7d0eda9eb9e31cb3160d0c2a34"
+  },
+  {
+   "id": "e2b8998a9437-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "f8749cb1a28dcf578b0da96f5ffd591af749e417c3f1c6ddc6ae1d40c809b056",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "bb127fec4304-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "a3f2d14d6fdfc27163a9949ccb53454a1fd08fd36948118ec42400a44f249a8f",
+   "evidence": "05bfd1589b02c3681fd779f9adb07f120ce8487e1a76a23519c86108a036c8af"
+  },
+  {
+   "id": "c8eb578150a5-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "dcaa39f6e25bf67dcd6f2f8552c0bb18d62c1318ad2ca909be5b6ea7cdbf3bf0",
+   "evidence": "ac40bddaaad82bd7a55b57c5e4a1b9b8584b9cac45cd3675bb5882dd7859919c"
+  },
+  {
+   "id": "4f09e55b40b1-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "394b65cace519ff827594135cc7add6af12745eb4f57965964b39721476ffa48",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "438267b77a49-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "cfdfec19ff49a8615947859044d433af1f551325e227631163eefbcc9cba8db8",
+   "evidence": "cca3e8ad34d9f0d2e31d944a8eef694c18774ab38f10a46b38fb35e234c10a86"
+  },
+  {
+   "id": "4296aaab9f82-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "4e51406b51a7d726273c4961ca054db42ae567f41a6313c2ce588adc1ee93778",
+   "evidence": "c25aa3331a42dc4d2f1870d648042d60861c4440dfa845a63d757806d1e0e15a"
+  },
+  {
+   "id": "2fc16512a233-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "a881164b05cd5f81e208c665257b30cdd44c0f05fee68c14cfa6dece23e01627",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "9e239bc961f0-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "55236f21ab71417eac815a8451dd810727dc4b5bf4aabaed13c09bb9bf30cb07",
+   "evidence": "8dcfd70942e0ce6d65193ac7fe40058c7b2e17380ccc080462e4425edcbe2813"
+  },
+  {
+   "id": "148301c0b9b9-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "51a9115b7da15d9a0bdd722ccaf0aa6b129d714cf381102997880cc87f809ef6",
+   "evidence": "66b96078bac16e18af7f26873784fa687cba5b183034750e668828f93f399ad5"
+  },
+  {
+   "id": "dfe228263cc9-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "2725fc73f597242d0e085de116aa50e6ae0551356ff9aea52a77ff78d66b34b5",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "6943eaf34ff8-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "5e6f8b1be89a71325499722c6161e154e111878d12bfec1813f21b6e61031307",
+   "evidence": "ddfb6c490f2368f3bf669aad386db8b16f7cf8d3983a92d00b522a0cef3d5864"
+  },
+  {
+   "id": "9ed262269222-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "b4a58ce6a16f8b20522d28769f54291b2b6cff7fd570ad7e4527c23ecd23927a",
+   "evidence": "acdd4b4b455749d3b27e76120aa4a2165ca819b8bb53680b057e38a2ea994094"
+  },
+  {
+   "id": "3cba3804a96b-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "ebd673551b4b1d3784de06a44a21ccf4d9ed8e51d3fb975c71f9e97c5b8484f8",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "562189f8a5b3-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "222caa115e019f4c8c331ec89b3a32d608395c4a723455b74f8ef0b65b2f8700",
+   "evidence": "ee4d8a507a1b0c5b485040e602a09fafbad92d81f2c30f95c2807c2a8a252d6b"
+  },
+  {
+   "id": "39207f17f8d2-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "473956c137f50fee2b59ac4747c2c1f794ed7650ee713f93f66f60eb668ef621",
+   "evidence": "ace62c4eb80533cd95a5c302fd6378417caea8c09280a428f55e7bfb73909091"
+  },
+  {
+   "id": "a4fcd803e5cf-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "abeda7784acf64d43435cf92cd79df5d975d75db8c9e6ece8980bab917c3044f",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "da30ce4015a5-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "1370f105ad6d24b3ac4e43ae9536593c7b654687cec6b57cb9d6cb91c51ebaa9",
+   "evidence": "57f0c5d483dcba61fd9987014006a23feee1a9069dcec7248b6273f13c09d9f1"
+  },
+  {
+   "id": "cfb4f5d0d1a9-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "97375bdd0b4d35d868f26f145f1a3b27bb033416a14b942bbdb44ba2efe10210",
+   "evidence": "865b5c89a8b471c343efaba0741ae40a02b734a1f0ab81419911006d4bdeb706"
+  },
+  {
+   "id": "779e320d77b4-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "bef721fa33f4570e07527194a272c1057b07f33a20f9347db2b38fbf5d66b37f",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "e2d8480de418-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "0c57e213bb5373bdecd9f83062b6e1e26ac588e72d8d8ec07ad727999834839e",
+   "evidence": "7eee1ec39259420e19998869608895c7d320c1988ce6201b0b895bd6864695bf"
+  },
+  {
+   "id": "bb389b1bc4a3-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "92238ae25fe29dac866ca8e6835792be3147afdaaba80bb700eac6149c1f8705",
+   "evidence": "02c87c04bbcbb32c31fe19ef75254a554a58b9f351e9059dca5c189cac281785"
+  },
+  {
+   "id": "de5eb2fa47f4-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "53c880698ff27d6879e17749c9ff2619387712d9afdaad5db93e742c1e3a682d",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "de540ea22381-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "b67191ba6e7dc1e395622643be9af180be607d19dd7606a03103de9f1d0ef152",
+   "evidence": "eafa7595c7308b767f4da6cd5da8308fba22ee6e5ea06658c19e663a591ee19b"
+  },
+  {
+   "id": "7698b48eaf08-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "9db4564753e3590f7ce8636bba33e21fcaf95bb86c02936f93d131628f910e66",
+   "evidence": "2042b55a8052b18db41324a8df579309b751f233c32a525f8413c604fbc8e505"
+  },
+  {
+   "id": "3a14091f9e31-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "4f649bee56b9578b218ad5fe7d21bf3bc5fa3707b2e61bd5b31f6fcbbdf90cc3",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "e46c8bfa72ab-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "4db57b036aba378625b5575fbde5e29ca768c22bed851a06be71b22705e2ef92",
+   "evidence": "4565754b1fdbfe801cd15418782d6582a6edadbf06bd1faeaafbe4e20635611c"
+  },
+  {
+   "id": "caad241c4674-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "5d844e8d7b7e186f4810c1ecfed86895cdce966b3adf9ab7a696a558d98f528b",
+   "evidence": "6d0a90d167626e9a3d9d5d085b8ce87a08234797358a76d1b56de8f89e680637"
+  },
+  {
+   "id": "1eb92cd07974-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "309e4ff84d91787802236f8a9ec13bea69959ae6c6da13ad4f5b8f82f263b707",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "ebb4cb347c4e-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "933687324f1e822a5c813b1ee76bffbcf011b5feae5b79d7c7b07cfd506643a1",
+   "evidence": "0f794264871ad975baf3082cb92df486f04c46be75990446aa94bbf88ab997a5"
+  },
+  {
+   "id": "26763ee65b8b-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "d994b51485fa619cfd9c5a8759201d347ddff9e17886133345bc9b75b55ff45b",
+   "evidence": "e8554bb1de09e68053c326d1ecdab1dbc4221ee3e60a66fbf84a3d15eb465706"
+  },
+  {
+   "id": "c86d1d618ecf-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "36859fcad8bf1414b4d7713ed73274fefd75e379d557bbba9c86c370e0375d2a",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "737490ff0c51-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "4679c5d308b8796781689d6c01a6179c8daffbee7b7bc7fabceac6c4ff7e5502",
+   "evidence": "21ef233bccf5c249b92fa7b3b7ebc61bc9b1d4f9fca99a6b8eb243ae82f345d0"
+  },
+  {
+   "id": "1e0aa07dc3cb-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "8a68a013ca8739169629d0a54e4657efb1d9219d73cb8d920e7fb673c6288d8e",
+   "evidence": "6fb1f41573f58f4321875e9ad4cbde4727903d44bdff9da88a0ee6eb722e5d3f"
+  },
+  {
+   "id": "db10712c7170-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "c935fb9879b0e10ad8d2d02eed537d5993c4397d06971d19ca9e62bbf3c966a2",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "61e1e54fdb7f-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "eefd4ad40478e3800520ac2900e51c7c1b0c87917937e595ca0b5db163f95e94",
+   "evidence": "dd90cff247663c82a17f5e8dc9d2bc8e01608fcb6a9c1ec08dead0a5ea0ae4c9"
+  },
+  {
+   "id": "f959c87f6f74-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "f41e85a307f654aa8b6292ea506ab004168f784cbcd8ac9596b585ecb3121e4b",
+   "evidence": "cfd1b6f382d99b16fb496d8218646ec93c0edfc4ba599bdb1cbc9037245d7dd2"
+  },
+  {
+   "id": "7a75bd5b1628-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "0713e1210ee45868f1a3bc674ac4d72c3690a5647afbfa106271f1f9ff5266f6",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "e44b8553a2b5-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "30ae68ff84dea10591c50347df03f0ae1f92080f2e2136520b86977333bf755d",
+   "evidence": "de4028e68246b1940aacbbf01e94d8870ec18dd2691bef17d4a630ca4ea33223"
+  },
+  {
+   "id": "206ff7b790a8-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "096b437b1ab6462fd1d3605a6375c3ea0c7dd77fbc61bfb6b5f0a8a52e649d04",
+   "evidence": "831ceaef54f0a2141d7c7ae35c87717d9e548814902afd9c9334c556b47ac094"
+  },
+  {
+   "id": "0d892ae1aa50-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "defaf278379e32fcc65eff523b7d97c9bd0ef21dda4bd3f343310024a19bc69e",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "16fbb53a60e7-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "027c782fb26ce398199ad2ab29fc506d249fe506053836c9a080ae1c17b95aea",
+   "evidence": "fd4a06e76eda8a08a4a47a33491c2c7ae41b4d9bb218c1dd7564862c4bafefb3"
+  },
+  {
+   "id": "6a2e1eeebc94-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "a851f422dcc83f5a3ee233eba705ca89070cc560bb0fd558bcdfe541b3b02901",
+   "evidence": "39a933ab73be3ec397f9ff992074ce043c917ebedea6bc2168b23bfd25a63b42"
+  },
+  {
+   "id": "108631a76dc5-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "a11cb56ae7369d6b1bcb418072d3b1fdbfabf0659ef0370544218f919dc4a9ab",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "50c3641a693c-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "853f3d4dc22ff87ce4d6bb6ecf351708194d5279696327c9e97bd8b337daa8ca",
+   "evidence": "6d1a71b6c5f60d1f4d1337484503befe6cfbf2ee86702442c2a222da319b42ae"
+  },
+  {
+   "id": "829baa186520-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "75f96ef50210b21a9bbb836688fb1d02038f115d61231d7000fdd7a41e633198",
+   "evidence": "1e0a297db560ae59c62e1360d5bca4a603b246ebba4b0abe813dd5f140dfdfa7"
+  },
+  {
+   "id": "7ea880ccee94-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "6cb6f749450bb625d310450716dbd3c4b21d75269e54b16ebcd792ebf416aa4e",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "d5447fe9051b-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "ff9273c5c0389ab3e656389a8bc939b631ec68c98232bd8d4a2adb46a3ecf1bf",
+   "evidence": "26768aca21f6d198c3ec911b3fdc3b86c39991814e4fa1c52769f5b9b2e21262"
+  },
+  {
+   "id": "b5578ff2bab0-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "e0bdf2a6b0fb3a7db29d7b9fbfa79e09fed6ea85255fcada129ac5dfd03ac54d",
+   "evidence": "36aa2f3fe575b2a9accf9f3a0fac98de471918b9bee9d84b797887a961b7534f"
+  },
+  {
+   "id": "1dd92a87a76c-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "239a0136d187226b74416facffa9b9e16451009d3141658d0fe3368682c72066",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "9a9979d849be-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "790c64f0cd50710e569e8ad4a75647183653289cbcfb29287ef60dcb6eb88e71",
+   "evidence": "fb80e72df4198fb88a2f43486c1de154a00a0641b245a69eb6c9315c75c521a4"
+  },
+  {
+   "id": "5aa0b24451c2-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "fa281791e5325a642dc298a71b20f468aa8ca0655530225a4cae5ffaf3c85f23",
+   "evidence": "c14e976c548b417b7897c5218506598af25107eec44b8cf790833d4e3e7beac0"
+  },
+  {
+   "id": "998a4d146381-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "34215d0f2bebbae2053b888109e12641177efd463467d39f82aaad54b8669a09",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "4dbff3a07a27-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "e77ae2422ce8b7b5567b8e1c8740c0fcb44fd2c3e565e1ae249f3b78513b2e7c",
+   "evidence": "cb2830a00e47dc8118e709abc14af3a75790aa7b87f480b2106c04bab40e7a43"
+  },
+  {
+   "id": "85c08592506e-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "811e88ff74d93974e5c6e07a7b859dedab28f34b04f00547e32e72fe162c218e",
+   "evidence": "f06774b3fc9ea3de553736b0b4f60fa4c50b579c25bde7c80e479e3ae16559ab"
+  },
+  {
+   "id": "31cf665355a2-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "60f4cbf9e0cdf9cd92845e5d9772130db6641794a3a31e0180fc24d9b15c5856",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "4cc05db814e6-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "958bf831bd283054cffa459b1e8a3a046e80b8bddf09a98b71ec8de109ce8a4b",
+   "evidence": "ab58e5e438ac666ef41af10fd5b6c2e9b3117e3062f05c67b0afa8a9866fb83a"
+  },
+  {
+   "id": "4c9346731b52-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "44362856ec05d10549ca94708cf8c53781eefb283568d106e25be9ecdd38e5ca",
+   "evidence": "c17421a805277a1cd7dd69bc0cdb81854265dea3f1458d9784661c8acdb5659f"
+  },
+  {
+   "id": "3e6bed1d099b-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "e50ad65ef080a8bda0efbab6c44195be3414d7ab996592cc8da8199fe420a97b",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "d0541c7ee96c-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "bf45927d6ad38146e78808693fcf456e3ce6ab3be453c629daf21c68aec4bc1f",
+   "evidence": "6fe17286963fd087e4c20755dc002da69e9182958d511e62bc12f2c723734989"
+  },
+  {
+   "id": "f4dfdea33669-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "4b98c4fdce5f2e54ccfaac79dc3e7a00da37a14f3547810d5672448f6bf1572e",
+   "evidence": "80dbda8de330e30d8c80d11697a37752d04ff11350afd168e7ef6fab81ea4606"
+  },
+  {
+   "id": "ff68afc7d9a6-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "3894e3bd21dd2a84d7f51d4e6859df8dee2ba6f75703fa660103f7a81df898ba",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "e9d48944853f-h",
+   "split": "dev",
+   "kind": "honest",
+   "label": "held",
+   "claim": "771cd9c4dafb53acf5944f7c5b9ab0b362f91297efba959eb9d31dc60c42161a",
+   "evidence": "b031bbb76e1df134c24849be30defa6efecd5e6f1814aa78a01bb71223169914"
+  },
+  {
+   "id": "3fd285232bab-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "6ac8963a8bdbd1501d043a129ec457cf222f3b2ca7e86307c10c7b1e828ee607",
+   "evidence": "2dc7299474a4c5b3d9d0dcb7f344efef5474e1e8f158975694d300743b7ce29e"
+  },
+  {
+   "id": "04cc11d3eef0-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "1948bad8ef970c6eba55778807c09a2301adb63f49494c3723da30eb1118d1be",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "69f329c6ac6a-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "f8f44a24eb0be96a46628af3910ad8a868685cd3eab54d9c02c2909ded6f1fbc",
+   "evidence": "965fdeda178cda023c38cee71f89fad284ea300c8b25b21efe3425c993a33fb2"
+  },
+  {
+   "id": "f635a06fb022-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "69c7684c7b28fc6ae6e4a330fa2b9792cb6da30bb92502d91b832e541183589c",
+   "evidence": "275ba0fbd5dec357abe75202f8333b68f67563bb2cb94e4d8eda899a04433b3d"
+  },
+  {
+   "id": "8718b054050d-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "c2e3c1d23ea83607e5d9c86e6e2ec556c245e15fd7713405a5cf29ba2ace9867",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "10e6fa379ade-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "0b8926b78f6a20d6d899a43012877230cddac1f7a83fb4c436683736c8794050",
+   "evidence": "5ff4d046c0e6e22d3ad6b93a0a409c13086ea3db15141797497a2bc1aa8b165a"
+  },
+  {
+   "id": "2563f553e4fa-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "aaa49576ce983fac36caca45582576b9a942c9cbe2410bd87ca45d8d16bfd42e",
+   "evidence": "55548b5b068ae2265b819b3007f63d4e1e3f0ec948488658da90dcab2d13ea27"
+  },
+  {
+   "id": "0f584b942345-s",
+   "split": "dev",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "9be013ac73aec30870604f021f20d0a13567931e0861b548d74772412d61837b",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "c7aa3350ee68-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "e7f17fd86a59b1dfedeb2f7d573103711dd5972527c3a725e6886ca3283177ae",
+   "evidence": "d4e8d193f7dbae9a963ad158266701d92ffed99bdd00ab6b5213a7c865b4a9ab"
+  },
+  {
+   "id": "b891fa8f7e1c-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "b2f02912dfe5788dca1708d260716e83d643a6b3b4d7a1cdc77db82e129d2023",
+   "evidence": "a4f0803e97ec54f5740f65d1c060197b0f03ff787c314f2e015bae843ff39edd"
+  },
+  {
+   "id": "b36cbd6a69a4-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "7ca432a1138037237b85772fe417fa18c93508b071e7cca31ce9d8e654375f3c",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "432263607196-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "667f2b362318732a44b7cc20b2c32d429c67f01f0a92ae07190d4ac9994b85fd",
+   "evidence": "2a622b50b2c4e28ea2946a05026b8c17ac921ac9b5bd1f4eed7a8d5669fdbb1b"
+  },
+  {
+   "id": "cd339fc77f4e-c",
+   "split": "holdout",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "cbf19d54659324a744774379bae064532f6353c4fe1e483a3f3ffa95529c1687",
+   "evidence": "3f71274366f624108a05711fdc4b58508a2a73ec5b09dbc1256bfcb81b599d6a"
+  },
+  {
+   "id": "0ae22738bdda-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "0820daece3943863712f102a881037b50007c930ee41c973401bab7a885dcf84",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  },
+  {
+   "id": "8c1987bccb6f-h",
+   "split": "holdout",
+   "kind": "honest",
+   "label": "held",
+   "claim": "34c9909419a0d329b453358a50a78bfedee95de4d2cc1b99721bb662918ad1ae",
+   "evidence": "13897e45b3d8ff6bd4d95cf11a4a9aae9c2bc87709151f4bc701be9fd4611b67"
+  },
+  {
+   "id": "dea5652ba331-c",
+   "split": "dev",
+   "kind": "changed",
+   "label": "broken",
+   "claim": "8761f9fc0d563d477bc07ac0a864c273352c1e66514eb2d09cf8b7305d9cc9fa",
+   "evidence": "824c3b6acb1c9fa5c24ae3d43bb4663b0352df22c010e9e8823c0a24f5550929"
+  },
+  {
+   "id": "b82276f35129-s",
+   "split": "holdout",
+   "kind": "swapped",
+   "label": "broken",
+   "claim": "5fc8e9c205a530546c6ebfd0ea9e9d5776382fe8c33f280ecb87e1404c4ef396",
+   "evidence": "51849a5457ada5f9444eccb935f2acc8a20b410c9caec038c6f6441774d5b344"
+  }
+ ],
+ "counts": {
+  "total": 120,
+  "sessions": 77,
+  "holdout": 61,
+  "dev": 59
+ },
+ "code": {
+  "systems.ts": "4ced268af1cc69db9b7d82a9a81805561afbc929754db7b73035f1bb64b9e571",
+  "run.ts": "a2b66700eb0aecf98d4bc4d518f58598bb6a6bfc2c72dbbb553706a2ab35fd04",
+  "score.ts": "0f49986417f7a59b751571b504c5c2c91fb24b37f285641a42b7d78f6d9e51ef"
+ },
+ "pipeline": "eaf58a8353c3f5dd134650c4e0553497c306a65a8806171bcf812960df0022b8",
+ "codeFrozenAt": "2026-10-28T20:20:03.720Z",
+ "changes": [
+  {
+   "at": "2026-10-28T20:18:55.344Z",
+   "what": "s1 vendored into src/s1; check.ts, tether.ts, claims.ts and systems.ts changed only in their import path; no model run had happened yet"
+  },
+  {
+   "at": "2026-10-28T20:20:03.737Z",
+   "what": "check.ts: effect import style only (import * as Effect -> import { Effect }); no model run had happened yet"
+  }
+ ]
+}

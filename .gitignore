@@ -1,0 +1,16 @@
+.alchemy
+.authurl
+.deploy.log
+.dev.vars
+.o
+.port
+.req.mjs
+.wdev.log
+node_modules
+/public
+.wrangler/
+.real/
+/client/public/docs/
+/client/public/proof.json
+receipts/deployed-url.txt
+/tools/oxlint/

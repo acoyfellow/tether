@@ -1,0 +1,69 @@
+{
+ "verdict": "disproven",
+ "reason": "tether lowest recall 1 vs best rival 1; tether lowest precision 0.7755 (needs >= 0.8)",
+ "bySystem": {
+  "clef-alone": [
+   {
+    "run": 1,
+    "recall": 0.5,
+    "precision": 1,
+    "falseFlag": 0,
+    "errors": 0,
+    "cases": 61
+   },
+   {
+    "run": 2,
+    "recall": 0.5,
+    "precision": 1,
+    "falseFlag": 0,
+    "errors": 0,
+    "cases": 61
+   },
+   {
+    "run": 3,
+    "recall": 0.5,
+    "precision": 1,
+    "falseFlag": 0,
+    "errors": 0,
+    "cases": 61
+   }
+  ],
+  "regex": [
+   {
+    "run": 1,
+    "recall": 1,
+    "precision": 0.95,
+    "falseFlag": 0.087,
+    "errors": 0,
+    "cases": 61
+   }
+  ],
+  "tether": [
+   {
+    "run": 1,
+    "recall": 1,
+    "precision": 0.7755,
+    "falseFlag": 0.4783,
+    "errors": 0,
+    "cases": 61
+   },
+   {
+    "run": 2,
+    "recall": 1,
+    "precision": 0.7755,
+    "falseFlag": 0.4783,
+    "errors": 0,
+    "cases": 61
+   },
+   {
+    "run": 3,
+    "recall": 1,
+    "precision": 0.7755,
+    "falseFlag": 0.4783,
+    "errors": 0,
+    "cases": 61
+   }
+  ]
+ },
+ "scoredAt": "2026-10-28T20:34:59.690Z"
+}

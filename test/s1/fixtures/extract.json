@@ -1,0 +1,99 @@
+{
+    "model": "clairic",
+    "answers": {
+        "claimed_passed": {
+            "type": "number",
+            "p_null": 1.495410550944598e-08,
+            "guess": 42,
+            "confidence": 1,
+            "value": 42
+        },
+        "log_passed": {
+            "type": "number",
+            "p_null": 3.5235172557435135e-09,
+            "guess": 40,
+            "confidence": 1,
+            "value": 40
+        },
+        "log_failed": {
+            "type": "number",
+            "p_null": 5.547900472357981e-10,
+            "guess": 2,
+            "confidence": 0.9999997615814777,
+            "value": 2
+        },
+        "deploy_url": {
+            "type": "text",
+            "p_null": 3.613300577853806e-05,
+            "span": [
+                217,
+                238
+            ],
+            "guess": "https://hark.coey.dev",
+            "confidence": 0.5661284327507019,
+            "value": "https://hark.coey.dev"
+        },
+        "version": {
+            "type": "text",
+            "p_null": 0.0020721505861729383,
+            "span": [
+                259,
+                272
+            ],
+            "guess": "7f3a91c2-aa10",
+            "confidence": 0.5942584276199341,
+            "value": "7f3a91c2-aa10"
+        },
+        "deploy_day": {
+            "type": "date",
+            "p_null": 0.4474734365940094,
+            "guess": "2026-10-17",
+            "confidence": 0.9108537666922318,
+            "value": "2026-10-17"
+        },
+        "rollback_reason": {
+            "type": "text",
+            "p_null": 1,
+            "span": [
+                71,
+                78
+            ],
+            "guess": "7f3a91c",
+            "confidence": 0.20422224700450897,
+            "value": null
+        },
+        "upload_seconds": {
+            "type": "duration",
+            "p_null": 1.1147698160129949e-06,
+            "unit": "seconds",
+            "guess": 3.21,
+            "confidence": 0.9999996423722308,
+            "value": 3.21
+        },
+        "fix_minutes": {
+            "type": "estimate",
+            "value": 5.080544053959158,
+            "mean": 6.5021387647006295,
+            "median": 5.124932860694953,
+            "p10": 2.3131554256185836,
+            "p90": 9.678066539785512,
+            "p_below": 9.651374421082437e-05,
+            "p_above": 3.9206879591802135e-05
+        },
+        "files": {
+            "type": "list",
+            "value": [],
+            "spans": [],
+            "confidence": 0.4716219835758684
+        }
+    },
+    "truncated": false,
+    "usage": {
+        "state_tokens": 102,
+        "image_tokens": 0,
+        "schema_tokens": 768,
+        "input_tokens": 1176,
+        "output_tokens": 0,
+        "passes": 4
+    }
+}

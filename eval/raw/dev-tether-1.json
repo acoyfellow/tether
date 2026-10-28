@@ -1,0 +1,421 @@
+{
+ "system": "tether",
+ "split": "dev",
+ "run": 1,
+ "ranAt": "2026-10-28T20:33:20.343Z",
+ "rows": [
+  {
+   "id": "a5156f989a04-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=ask broken=0 held=1"
+  },
+  {
+   "id": "222fa1c2b26f-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "1843ced606fd-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "3ada4fc8d0a7-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "da304212bab4-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=2 held=0"
+  },
+  {
+   "id": "e86730e6bfb1-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "dbd2d97161d4-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=retry broken=2 held=1"
+  },
+  {
+   "id": "40075401104e-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "5407a5ddf2f3-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "84842cb58e59-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=ask broken=0 held=2"
+  },
+  {
+   "id": "dca40fdee44a-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "d98215c67efd-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "3769bd989c4f-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "59f250ae5f47-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "5694fc8484cb-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "49eca7974f66-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "745ecd0569a6-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "action=pass broken=0 held=2"
+  },
+  {
+   "id": "69b6ce01092f-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=2 held=0"
+  },
+  {
+   "id": "8e8bb967880f-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "eca395d0b7c4-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "18f4b963f30f-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "dadae9e11360-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "action=pass broken=0 held=2"
+  },
+  {
+   "id": "7be03c26e09b-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "e2b8998a9437-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "c8eb578150a5-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "438267b77a49-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=retry broken=2 held=0"
+  },
+  {
+   "id": "2fc16512a233-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=ask broken=0 held=1"
+  },
+  {
+   "id": "dfe228263cc9-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "9ed262269222-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "3cba3804a96b-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=ask broken=1 held=1"
+  },
+  {
+   "id": "562189f8a5b3-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=ask broken=0 held=2"
+  },
+  {
+   "id": "da30ce4015a5-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=retry broken=0 held=2"
+  },
+  {
+   "id": "bb389b1bc4a3-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "7698b48eaf08-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "e46c8bfa72ab-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "action=pass broken=0 held=2"
+  },
+  {
+   "id": "caad241c4674-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "1eb92cd07974-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "c86d1d618ecf-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "7a75bd5b1628-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "e44b8553a2b5-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "206ff7b790a8-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "16fbb53a60e7-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "action=pass broken=0 held=1"
+  },
+  {
+   "id": "6a2e1eeebc94-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "108631a76dc5-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "50c3641a693c-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=ask broken=0 held=2"
+  },
+  {
+   "id": "829baa186520-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "7ea880ccee94-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "5aa0b24451c2-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=0"
+  },
+  {
+   "id": "31cf665355a2-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "4cc05db814e6-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "action=ask broken=0 held=2"
+  },
+  {
+   "id": "4c9346731b52-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "3e6bed1d099b-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "d0541c7ee96c-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "action=pass broken=0 held=1"
+  },
+  {
+   "id": "ff68afc7d9a6-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "e9d48944853f-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "action=pass broken=0 held=2"
+  },
+  {
+   "id": "f635a06fb022-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=0"
+  },
+  {
+   "id": "8718b054050d-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=0"
+  },
+  {
+   "id": "0f584b942345-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=1"
+  },
+  {
+   "id": "dea5652ba331-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "action=retry broken=1 held=2"
+  }
+ ]
+}

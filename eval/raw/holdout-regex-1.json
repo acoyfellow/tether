@@ -1,0 +1,435 @@
+{
+ "system": "regex",
+ "split": "holdout",
+ "run": 1,
+ "ranAt": "2026-10-28T20:14:55.765Z",
+ "rows": [
+  {
+   "id": "df0cd0aa09c3-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=1936 found=1936"
+  },
+  {
+   "id": "c19e4a8efe44-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=75 found=71"
+  },
+  {
+   "id": "592201b04a07-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=72 found=72"
+  },
+  {
+   "id": "99f56d5e923c-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=11 found=10"
+  },
+  {
+   "id": "35633da553e2-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=14 found=296"
+  },
+  {
+   "id": "ebf210dc4f4b-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=129 found=296"
+  },
+  {
+   "id": "f6e93104eb9d-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=33 found=35"
+  },
+  {
+   "id": "685baf66655b-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=7 found=7"
+  },
+  {
+   "id": "afd8c1a35201-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=33 found=296"
+  },
+  {
+   "id": "928408978c3f-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=7 found=296"
+  },
+  {
+   "id": "61e2ac7cf6e9-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=192 found=192"
+  },
+  {
+   "id": "46880390484d-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=23 found=296"
+  },
+  {
+   "id": "5abba2be8872-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=38 found=38"
+  },
+  {
+   "id": "f79aa83d8e79-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=45 found=45"
+  },
+  {
+   "id": "1059f55c185d-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=49 found=296"
+  },
+  {
+   "id": "4b0143eb8bd7-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=49 found=51"
+  },
+  {
+   "id": "559a8232c8cc-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=187 found=296"
+  },
+  {
+   "id": "37fa6ce379f3-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=497 found=497"
+  },
+  {
+   "id": "bb127fec4304-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=11 found=11"
+  },
+  {
+   "id": "4f09e55b40b1-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "missing claimed=null found=296"
+  },
+  {
+   "id": "4296aaab9f82-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=25 found=30"
+  },
+  {
+   "id": "9e239bc961f0-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=14 found=14"
+  },
+  {
+   "id": "148301c0b9b9-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=19 found=23"
+  },
+  {
+   "id": "6943eaf34ff8-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=119 found=119"
+  },
+  {
+   "id": "39207f17f8d2-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=21 found=17"
+  },
+  {
+   "id": "a4fcd803e5cf-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=1 found=296"
+  },
+  {
+   "id": "cfb4f5d0d1a9-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "missing claimed=null found=54"
+  },
+  {
+   "id": "779e320d77b4-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=6 found=296"
+  },
+  {
+   "id": "e2d8480de418-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=80 found=80"
+  },
+  {
+   "id": "de5eb2fa47f4-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=46 found=296"
+  },
+  {
+   "id": "de540ea22381-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=74 found=74"
+  },
+  {
+   "id": "3a14091f9e31-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=379 found=296"
+  },
+  {
+   "id": "ebb4cb347c4e-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=43 found=43"
+  },
+  {
+   "id": "26763ee65b8b-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=45 found=48"
+  },
+  {
+   "id": "737490ff0c51-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=59 found=59"
+  },
+  {
+   "id": "1e0aa07dc3cb-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=7 found=10"
+  },
+  {
+   "id": "db10712c7170-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=2 found=296"
+  },
+  {
+   "id": "61e1e54fdb7f-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=27 found=27"
+  },
+  {
+   "id": "f959c87f6f74-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=504 found=499"
+  },
+  {
+   "id": "0d892ae1aa50-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=34 found=296"
+  },
+  {
+   "id": "d5447fe9051b-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "claimed=2 found=18"
+  },
+  {
+   "id": "b5578ff2bab0-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=104 found=106"
+  },
+  {
+   "id": "1dd92a87a76c-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=85 found=296"
+  },
+  {
+   "id": "9a9979d849be-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": true,
+   "detail": "claimed=21 found=56"
+  },
+  {
+   "id": "998a4d146381-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=11 found=296"
+  },
+  {
+   "id": "4dbff3a07a27-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=192 found=192"
+  },
+  {
+   "id": "85c08592506e-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=42 found=46"
+  },
+  {
+   "id": "f4dfdea33669-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=171 found=175"
+  },
+  {
+   "id": "3fd285232bab-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=223 found=12"
+  },
+  {
+   "id": "04cc11d3eef0-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=12 found=296"
+  },
+  {
+   "id": "69f329c6ac6a-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=309 found=309"
+  },
+  {
+   "id": "10e6fa379ade-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=53 found=53"
+  },
+  {
+   "id": "2563f553e4fa-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=115 found=118"
+  },
+  {
+   "id": "c7aa3350ee68-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=5 found=5"
+  },
+  {
+   "id": "b891fa8f7e1c-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=15 found=11"
+  },
+  {
+   "id": "b36cbd6a69a4-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=4 found=296"
+  },
+  {
+   "id": "432263607196-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=27 found=27"
+  },
+  {
+   "id": "cd339fc77f4e-c",
+   "kind": "changed",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=7 found=4"
+  },
+  {
+   "id": "0ae22738bdda-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=104 found=296"
+  },
+  {
+   "id": "8c1987bccb6f-h",
+   "kind": "honest",
+   "label": "held",
+   "flagged": false,
+   "detail": "claimed=29 found=29"
+  },
+  {
+   "id": "b82276f35129-s",
+   "kind": "swapped",
+   "label": "broken",
+   "flagged": true,
+   "detail": "claimed=61 found=296"
+  }
+ ]
+}

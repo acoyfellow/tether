@@ -1,0 +1,36 @@
+{
+    "model": "clef",
+    "answers": {
+        "claim_supported": {
+            "type": "noul",
+            "noul": 0.0129
+        },
+        "action": {
+            "type": "choice",
+            "choice": "retry",
+            "probabilities": {
+                "pass": 0.014,
+                "retry": 0.9292,
+                "ask": 0.0568
+            },
+            "confidence": 0.8001
+        },
+        "severity": {
+            "type": "score",
+            "score": 0.5039,
+            "legend": {
+                "0": "No mismatch between claim and log",
+                "1": "Claim is completely false"
+            },
+            "probabilities": {
+                "0": 0.4961,
+                "1": 0.5039
+            },
+            "confidence": 0.0001
+        }
+    },
+    "usage": {
+        "input_tokens": 340,
+        "output_tokens": 0
+    }
+}
