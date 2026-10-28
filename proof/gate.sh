@@ -14,7 +14,11 @@ npm run lint >/dev/null || fail "lint"
 
 echo "== eval"
 bun eval/verify-frozen.ts || fail "eval files do not match eval/frozen.json"
+committed=$(bun -e 'const r=require("./eval/receipt.json");console.log(JSON.stringify([r.verdict,r.bySystem]))')
 bun eval/score.ts >/dev/null || fail "score"
+recomputed=$(bun -e 'const r=require("./eval/receipt.json");console.log(JSON.stringify([r.verdict,r.bySystem]))')
+git checkout -- eval/receipt.json
+[ "$committed" = "$recomputed" ] || fail "committed receipt does not match the recomputed scores"
 verdict=$(bun -e 'console.log(require("./eval/receipt.json").verdict)')
 case "$verdict" in proven|disproven) echo "verdict: $verdict" ;; *) fail "verdict is $verdict" ;; esac
 
