@@ -1,0 +1,195 @@
+.gitignore
+  s_5f045b53b1dfb4::t_4adb234e368873 1-16
+.oxlintrc.json
+  s_1edf569f022c1c::t_d1af741cdbabe8 1-57
+bunfig.toml
+  s_2065c5125668b9::t_feb7504855eefd 1-5
+client/index.html
+  s_a90e6f4617f964::t_5cbe5d08a214c8 1-18
+client/public/llms.txt
+  s_5f045b53b1dfb4::t_533780cc29597e 1-15
+client/src/command.ts
+  s_5f045b53b1dfb4::t_333a383fed9e4a 1-55
+client/src/entry.ts
+  s_5f045b53b1dfb4::t_7ae0a39e6b6026 1-23
+client/src/examples.ts
+  s_2065c5125668b9::t_2a5d1a704e1348 1-38
+client/src/landing.ts
+  s_5f045b53b1dfb4::t_4548041036e5e7 1-108
+client/src/message.ts
+  s_5f045b53b1dfb4::t_f82b92efc5923f 1-17
+client/src/model.ts
+  s_5f045b53b1dfb4::t_56e2029da64c50 1-59
+client/src/styles.css
+  s_2065c5125668b9::t_a1c73b097e40f1 1-21
+client/src/update.ts
+  s_5f045b53b1dfb4::t_729616d8111bd2 1-31
+client/src/view.ts
+  s_5f045b53b1dfb4::t_a550b6a5ca3208 1-195
+client/vite.config.ts
+  s_f38722776a913f::t_f0df77dd11fed9 1-11
+docs/eval.md
+  s_5f045b53b1dfb4::t_c9f7891eb4a51b 1-53
+eval/build.ts
+  s_5f045b53b1dfb4::t_939db04890a7c0 1-131
+eval/bun-meta.d.ts
+  s_5f045b53b1dfb4::t_3bfc7dea007685 1-4
+eval/freeze-code.ts
+  s_5f045b53b1dfb4::t_0521b85136cedd 1-13
+eval/frozen.json
+  s_5f045b53b1dfb4::t_6e34a02fcc4c30 1-992
+eval/mine.ts
+  s_5f045b53b1dfb4::t_c562b9f17a9b36 1-128
+eval/no-raw-text.ts
+  s_5f045b53b1dfb4::t_caf21b22681608 1-42
+eval/raw/holdout-clef-alone-1.json
+  s_aff9605c3b4204::t_12c0132987073e 1-435
+eval/raw/holdout-clef-alone-2.json
+  s_5f045b53b1dfb4::t_81e8486cc8974a 1-435
+eval/raw/holdout-clef-alone-3.json
+  s_aff9605c3b4204::t_aedf8e3b9447fa 1-435
+eval/raw/holdout-regex-1.json
+  s_5f045b53b1dfb4::t_0c6403cc5a12b6 1-435
+eval/raw/holdout-tether-1.json
+  s_aff9605c3b4204::t_8e6e4385c97703 1-435
+eval/raw/holdout-tether-2.json
+  s_aff9605c3b4204::t_dc3f51c8130671 1-435
+eval/raw/holdout-tether-3.json
+  s_aff9605c3b4204::t_036e29695ac19c 1-435
+eval/receipt.json
+  s_5f045b53b1dfb4::t_1ab86a655f3c29 1-69
+eval/run.ts
+  s_5f045b53b1dfb4::t_063064308e3e01 1-101
+eval/score.ts
+  s_5f045b53b1dfb4::t_ed9e0de1bac91a 1-83
+eval/site.ts
+  s_5f045b53b1dfb4::t_2e1d9b34195c59 1-78
+eval/systems.ts
+  s_5f045b53b1dfb4::t_1a71a000311e27 1-98
+eval/verify-frozen.ts
+  s_5f045b53b1dfb4::t_5b4b9cb4420632 1-45
+package-lock.json
+  s_aff9605c3b4204::t_eeab3d6f08b1b7 1-6429
+package.json
+  s_5f045b53b1dfb4::t_1144c243a02893 1-38
+receipts/demo.json
+  s_5ddfc8f4108175::t_f8d3de5e73b68b 1-347
+scripts/fetch-anti-slop.sh
+  s_5f045b53b1dfb4::t_acf81dcbb11127 1-11
+src/check.ts
+  s_5f045b53b1dfb4::t_973ff9496a4684 1-88
+src/claims.ts
+  s_5f045b53b1dfb4::t_5d783b8ed6de33 1-90
+src/index.ts
+  s_5f045b53b1dfb4::t_1199b1a6ac8958 1-68
+src/s1/client.ts
+  s_5f045b53b1dfb4::t_033520355bbf1b 1-66
+src/s1/index.ts
+  s_5f045b53b1dfb4::t_aaee2327a9bcc0 1-7
+src/s1/read.ts
+  s_5f045b53b1dfb4::t_3fd37cc12fd2fd 1-49
+src/s1/schema.ts
+  s_5f045b53b1dfb4::t_8e81a43f803caa 1-72
+src/s1/spec.ts
+  s_5f045b53b1dfb4::t_428421fa027ad9 1-62
+src/tether.ts
+  s_5f045b53b1dfb4::t_6d67991acd4508 1-79
+test/check.test.ts
+  s_5f045b53b1dfb4::t_3a5ec360b3c4a2 1-145
+test/s1/client.test.ts
+  s_5f045b53b1dfb4::t_0ea9e73e1820f4 1-90
+test/s1/fixtures/decide.json
+  s_5f045b53b1dfb4::t_ede4ea753263cf 1-36
+test/s1/fixtures/extract.json
+  s_5f045b53b1dfb4::t_5ea6476d9e068a 1-99
+tsconfig.eval.json
+  s_5f045b53b1dfb4::t_ebd5c362506c5f 1-5
+tsconfig.json
+  s_5f045b53b1dfb4::t_c2f7e73ca21d9a 1-18
+wrangler.dev.jsonc
+  s_5f045b53b1dfb4::t_3207166529b6f5 1-10
+README.md
+  s_5f045b53b1dfb4::t_13348256e7903d 1-106
+alchemy.run.ts
+  s_5f045b53b1dfb4::t_034eec58cf3333 1-35
+client/public/docs.css
+  s_5f045b53b1dfb4::t_fc7e205fbb5e1f 1-60
+docs/api.md
+  s_5f045b53b1dfb4::t_7f16004dfd8522 1-58
+docs/design.md
+  s_5f045b53b1dfb4::t_3d44c03af1f674 1-33
+docs/how-it-works.md
+  s_5f045b53b1dfb4::t_46f25534ebafeb 1-29
+docs/limits.md
+  s_5f045b53b1dfb4::t_473d1c178acdd0 1-29
+eval/docs.ts
+  s_5f045b53b1dfb4::t_157f729c96f377 1-103
+eval/raw/dev-clef-alone-1.json
+  s_5f045b53b1dfb4::t_da37c1fda95993 1-421
+eval/raw/dev-tether-1.json
+  s_5f045b53b1dfb4::t_67693b02e02572 1-421
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9b96def61e4049c37ff41bd48642000208e2e8b7",
+  "prompts": {},
+  "sessions": {
+    "s_1edf569f022c1c": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0df3d-f9fc-74ea-ae36-1d244e193f8b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_2065c5125668b9": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a11c9e-fbb7-7768-b17a-0b53daf78bb6",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_5f045b53b1dfb4": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a177a9-20df-71ac-82c2-3c2b52888d76",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_a90e6f4617f964": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a16017-51a0-7338-8762-5c58263ca8af",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_aff9605c3b4204": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0806f-f6e6-7378-a167-08e626c7de42",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_f38722776a913f": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a13634-235a-7766-a4c2-59095a90e524",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
