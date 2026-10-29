@@ -1,5 +1,7 @@
 # tether
 
+> **Disproven. This did not work.** On a frozen eval of 120 real cases, a regex beat tether (F1 0.974 against 0.874), and tether flagged 48% of honest claims. Purpose-built grounding models such as [LettuceDetect](https://github.com/KRLabsOrg/LettuceDetect) and [MiniCheck](https://github.com/Liyan06/MiniCheck) fit this problem. See [FIT.md](FIT.md).
+
 **Check what an agent says it did against the output it did it with.**
 
 tether reads an agent's final message and the command output behind it. It draws a line from each claim to the evidence for that claim, marks each line held, broken or unbacked, and gives a gate verdict: pass, retry or ask.

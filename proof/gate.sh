@@ -5,6 +5,11 @@ cd "$(dirname "$0")/.."
 host="https://tether.customer0.dev"
 fail() { echo "GATE FAIL: $*" >&2; exit 1; }
 
+echo "== fit"
+shared="$HOME/cloudflare/.context/bin/spike-fit.ts"
+[ ! -f "$shared" ] || cmp -s fit/spike-fit.ts "$shared" || fail "fit/spike-fit.ts differs from the shared copy; run spike-fit-sync"
+bun fit/spike-fit.ts . || fail "fit"
+
 echo "== code"
 npx tsc -p . >/dev/null || fail "typecheck"
 npx tsc -p tsconfig.eval.json >/dev/null || fail "eval typecheck"
