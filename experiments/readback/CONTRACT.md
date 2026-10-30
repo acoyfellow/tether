@@ -69,3 +69,7 @@ If `readback` misses any faulty case in any run, or false alarms exceed 5%, the 
 ## Mutation check
 
 Before scoring, `mutate.ts` must show that each comparison in `readback` matters: forcing any one field comparison to `true` must lower recall on the cases that change that field.
+
+## Deviations
+
+1. Before any run, `mutate.ts` failed on fields `a` and `tag0`: every `partial` case dropped the second field, so no case tested the first field's comparison alone. `gen.ts` now alternates which field is dropped. The cases were regenerated and frozen before run 1.

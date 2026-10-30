@@ -14,3 +14,4 @@ node_modules
 /client/public/proof.json
 receipts/deployed-url.txt
 /tools/oxlint/
+.DS_Store

@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "kv-0",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-0"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-9vgzef"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-9vgzef"
+      }
+    ]
+  },
+  {
+    "id": "kv-1",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-1"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-4y6a6s"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-4y6a6s"
+      }
+    ]
+  },
+  {
+    "id": "kv-2",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-2"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-8yv76m"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-8yv76m"
+      }
+    ]
+  },
+  {
+    "id": "kv-3",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-3"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-gbosze"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-gbosze"
+      }
+    ]
+  },
+  {
+    "id": "kv-4",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-4"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-b479l8"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-b479l8"
+      }
+    ]
+  },
+  {
+    "id": "kv-5",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-5"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-8r2nlm"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-8r2nlm"
+      }
+    ]
+  },
+  {
+    "id": "kv-6",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-6"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-edwu5q"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-edwu5q"
+      }
+    ]
+  },
+  {
+    "id": "kv-7",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-7"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-f4ymir"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-f4ymir"
+      }
+    ]
+  },
+  {
+    "id": "kv-8",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-8"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-18e2mg"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-18e2mg"
+      }
+    ]
+  },
+  {
+    "id": "kv-9",
+    "kind": "kv",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-9"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-ght619"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-ght619"
+      }
+    ]
+  },
+  {
+    "id": "kv-10",
+    "kind": "kv",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-10"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-3gt6hv"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "kv-11",
+    "kind": "kv",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-11"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-3749e4"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-3749e4-x"
+      }
+    ]
+  },
+  {
+    "id": "kv-12",
+    "kind": "kv",
+    "fault": "overwritten",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-12"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-gf2am1"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-gf2am1"
+      },
+      {
+        "value": "v-gf2am1-x"
+      }
+    ]
+  },
+  {
+    "id": "kv-13",
+    "kind": "kv",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-13"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-z5b0d"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-z5b0d-x"
+      }
+    ]
+  },
+  {
+    "id": "kv-14",
+    "kind": "kv",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-14"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-6cnu1d"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "kv-15",
+    "kind": "kv",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-15"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-i0frt"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-i0frt-x"
+      }
+    ]
+  },
+  {
+    "id": "kv-16",
+    "kind": "kv",
+    "fault": "overwritten",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-16"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-16v2jc"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-16v2jc"
+      },
+      {
+        "value": "v-16v2jc-x"
+      }
+    ]
+  },
+  {
+    "id": "kv-17",
+    "kind": "kv",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-17"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-b53e3i"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-b53e3i-x"
+      }
+    ]
+  },
+  {
+    "id": "kv-18",
+    "kind": "kv",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-18"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-fa4tdj"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "kv-19",
+    "kind": "kv",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "kv",
+        "namespace": "79cfce90b4ab46a3a72350e734d697b5",
+        "key": "rb-19"
+      },
+      "changes": [
+        {
+          "key": "value",
+          "before": null,
+          "after": "v-de02zc"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "value": "v-de02zc-x"
+      }
+    ]
+  },
+  {
+    "id": "d1-0",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-0"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-c9azv0"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-11xl8a"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-c9azv0",
+        "b": "b-11xl8a"
+      }
+    ]
+  },
+  {
+    "id": "d1-1",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-1"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-a80ff5"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-87a42u"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-a80ff5",
+        "b": "b-87a42u"
+      }
+    ]
+  },
+  {
+    "id": "d1-2",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-2"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-3de97w"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-er9hqp"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-3de97w",
+        "b": "b-er9hqp"
+      }
+    ]
+  },
+  {
+    "id": "d1-3",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-3"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-1511ou"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-d9xcg8"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-1511ou",
+        "b": "b-d9xcg8"
+      }
+    ]
+  },
+  {
+    "id": "d1-4",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-4"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-2f4nw8"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-g73w9"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-2f4nw8",
+        "b": "b-g73w9"
+      }
+    ]
+  },
+  {
+    "id": "d1-5",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-5"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-buktwq"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-c7usdt"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-buktwq",
+        "b": "b-c7usdt"
+      }
+    ]
+  },
+  {
+    "id": "d1-6",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-6"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-e9xn9z"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-disg0z"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-e9xn9z",
+        "b": "b-disg0z"
+      }
+    ]
+  },
+  {
+    "id": "d1-7",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-7"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-dtn7gj"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-ca2i8j"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-dtn7gj",
+        "b": "b-ca2i8j"
+      }
+    ]
+  },
+  {
+    "id": "d1-8",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-8"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-ljuh8"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-5lu5g1"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-ljuh8",
+        "b": "b-5lu5g1"
+      }
+    ]
+  },
+  {
+    "id": "d1-9",
+    "kind": "d1",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-9"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-2hgw3j"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-aw9jhl"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-2hgw3j",
+        "b": "b-aw9jhl"
+      }
+    ]
+  },
+  {
+    "id": "d1-10",
+    "kind": "d1",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-10"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-6c2ol1"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-4y9flp"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "d1-11",
+    "kind": "d1",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-11"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-d2gfd4"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-56aarv"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-d2gfd4-x",
+        "b": "b-56aarv-x"
+      }
+    ]
+  },
+  {
+    "id": "d1-12",
+    "kind": "d1",
+    "fault": "overwritten",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-12"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-egmgzs"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-989q7v"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-egmgzs",
+        "b": "b-989q7v"
+      },
+      {
+        "a": "a-egmgzs-x",
+        "b": "b-989q7v-x"
+      }
+    ]
+  },
+  {
+    "id": "d1-13",
+    "kind": "d1",
+    "fault": "partial",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-13"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-3berqe"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-7n2du5"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-3berqe",
+        "b": "b-old"
+      }
+    ]
+  },
+  {
+    "id": "d1-14",
+    "kind": "d1",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-14"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-9hs3es"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-6v5fwr"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "d1-15",
+    "kind": "d1",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-15"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-4xmdtu"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-dw9th8"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-4xmdtu-x",
+        "b": "b-dw9th8-x"
+      }
+    ]
+  },
+  {
+    "id": "d1-16",
+    "kind": "d1",
+    "fault": "overwritten",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-16"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-9xp1k7"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-5ubpij"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-9xp1k7",
+        "b": "b-5ubpij"
+      },
+      {
+        "a": "a-9xp1k7-x",
+        "b": "b-5ubpij-x"
+      }
+    ]
+  },
+  {
+    "id": "d1-17",
+    "kind": "d1",
+    "fault": "partial",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-17"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-bv5e52"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-9pen40"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-old",
+        "b": "b-9pen40"
+      }
+    ]
+  },
+  {
+    "id": "d1-18",
+    "kind": "d1",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-18"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-6ltx50"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-9hl165"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "d1-19",
+    "kind": "d1",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "d1",
+        "database": "0280a10a-efc6-4eb7-8eee-94926f380bb8",
+        "table": "gl_rb",
+        "id": "rb-19"
+      },
+      "changes": [
+        {
+          "key": "a",
+          "before": null,
+          "after": "a-3xbeya"
+        },
+        {
+          "key": "b",
+          "before": null,
+          "after": "b-1fcmcu"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "a": "a-3xbeya-x",
+        "b": "b-1fcmcu-x"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-0",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-1"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-9s1a3h"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-8om06c"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-9s1a3h",
+        "tag1": "rb-1-8om06c"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-1",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-2"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-7ipwft"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-4vmxcs"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-7ipwft",
+        "tag1": "rb-1-4vmxcs"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-2",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-3"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-7h1vyd"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-1bf4fp"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-7h1vyd",
+        "tag1": "rb-1-1bf4fp"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-3",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-4"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-cr57yf"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-3ch5l3"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-cr57yf",
+        "tag1": "rb-1-3ch5l3"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-4",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-5"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-1ztze8"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-e2684b"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-1ztze8",
+        "tag1": "rb-1-e2684b"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-5",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-6"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-9zizwk"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-a7on9l"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-9zizwk",
+        "tag1": "rb-1-a7on9l"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-6",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-7"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-ff0iju"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-442bmu"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-ff0iju",
+        "tag1": "rb-1-442bmu"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-7",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-8"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-7y1c3i"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-6iafb0"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-7y1c3i",
+        "tag1": "rb-1-6iafb0"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-8",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-9"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-ag15vl"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-b8zfda"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-ag15vl",
+        "tag1": "rb-1-b8zfda"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-9",
+    "kind": "worker_tags",
+    "fault": "honest",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-10"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-3twn3p"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-36c8j0"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-3twn3p",
+        "tag1": "rb-1-36c8j0"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-10",
+    "kind": "worker_tags",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-1"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-a7jltx"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-7qpg"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "worker_tags-11",
+    "kind": "worker_tags",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-2"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-4okx12"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-cukkw5"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-4okx12-x",
+        "tag1": "rb-1-cukkw5-x"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-12",
+    "kind": "worker_tags",
+    "fault": "overwritten",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-3"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-co93a2"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-7599r6"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-co93a2",
+        "tag1": "rb-1-7599r6"
+      },
+      {
+        "tag0": "rb-0-co93a2-x",
+        "tag1": "rb-1-7599r6-x"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-13",
+    "kind": "worker_tags",
+    "fault": "partial",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-4"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-62lgbo"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-8f7ltz"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-62lgbo",
+        "tag1": "tag1-old"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-14",
+    "kind": "worker_tags",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-5"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-476dsv"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-4u2qaj"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "worker_tags-15",
+    "kind": "worker_tags",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-6"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-dy6ur4"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-4oc5oy"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-dy6ur4-x",
+        "tag1": "rb-1-4oc5oy-x"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-16",
+    "kind": "worker_tags",
+    "fault": "overwritten",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-7"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-9u2xpy"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-z1hrs"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-9u2xpy",
+        "tag1": "rb-1-z1hrs"
+      },
+      {
+        "tag0": "rb-0-9u2xpy-x",
+        "tag1": "rb-1-z1hrs-x"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-17",
+    "kind": "worker_tags",
+    "fault": "partial",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-8"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-ehciop"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-bd39kf"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "tag0-old",
+        "tag1": "rb-1-bd39kf"
+      }
+    ]
+  },
+  {
+    "id": "worker_tags-18",
+    "kind": "worker_tags",
+    "fault": "never_applied",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-9"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-7f0qrt"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-2voyuw"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": []
+  },
+  {
+    "id": "worker_tags-19",
+    "kind": "worker_tags",
+    "fault": "wrong_value",
+    "record": {
+      "tool_name": "execute",
+      "account_id": "customer0",
+      "target": {
+        "kind": "worker_tags",
+        "script": "gl-sb-10"
+      },
+      "changes": [
+        {
+          "key": "tag0",
+          "before": null,
+          "after": "rb-0-donoc0"
+        },
+        {
+          "key": "tag1",
+          "before": null,
+          "after": "rb-1-4rkcve"
+        }
+      ],
+      "result": {
+        "success": true
+      }
+    },
+    "steps": [
+      {
+        "tag0": "rb-0-donoc0-x",
+        "tag1": "rb-1-4rkcve-x"
+      }
+    ]
+  }
+]
