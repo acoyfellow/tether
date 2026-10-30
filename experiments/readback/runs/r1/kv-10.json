@@ -1,0 +1,19 @@
+{
+  "id": "kv-10",
+  "kind": "kv",
+  "fault": "never_applied",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "value",
+        "expected": "v-3gt6hv",
+        "observed": null,
+        "held": false
+      }
+    ]
+  },
+  "ms": 80.6728750000002,
+  "calls": 1
+}

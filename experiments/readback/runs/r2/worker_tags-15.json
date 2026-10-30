@@ -1,0 +1,25 @@
+{
+  "id": "worker_tags-15",
+  "kind": "worker_tags",
+  "fault": "wrong_value",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "tag0",
+        "expected": "rb-0-dy6ur4",
+        "observed": "rb-0-dy6ur4-x",
+        "held": false
+      },
+      {
+        "key": "tag1",
+        "expected": "rb-1-4oc5oy",
+        "observed": "rb-1-4oc5oy-x",
+        "held": false
+      }
+    ]
+  },
+  "ms": 201.8095420000027,
+  "calls": 1
+}

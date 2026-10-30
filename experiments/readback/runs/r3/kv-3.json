@@ -1,0 +1,19 @@
+{
+  "id": "kv-3",
+  "kind": "kv",
+  "fault": "honest",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "held",
+    "fields": [
+      {
+        "key": "value",
+        "expected": "v-gbosze",
+        "observed": "v-gbosze",
+        "held": true
+      }
+    ]
+  },
+  "ms": 168.43483400000014,
+  "calls": 1
+}

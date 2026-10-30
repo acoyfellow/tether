@@ -1,0 +1,95 @@
+{
+  "runs": {
+    "r1": {
+      "n": 60,
+      "readback": {
+        "recall": 1,
+        "false_alarm": 0
+      },
+      "per_kind": {
+        "d1": {
+          "recall": 1,
+          "false_alarm": 0
+        },
+        "worker_tags": {
+          "recall": 1,
+          "false_alarm": 0
+        },
+        "kv": {
+          "recall": 1,
+          "false_alarm": 0
+        }
+      },
+      "api_ok": {
+        "recall": 0,
+        "false_alarm": 0
+      },
+      "ms_median": 116,
+      "ms_max": 579,
+      "calls_per_check": 1,
+      "missed": [],
+      "pass": true
+    },
+    "r2": {
+      "n": 60,
+      "readback": {
+        "recall": 1,
+        "false_alarm": 0
+      },
+      "per_kind": {
+        "d1": {
+          "recall": 1,
+          "false_alarm": 0
+        },
+        "worker_tags": {
+          "recall": 1,
+          "false_alarm": 0
+        },
+        "kv": {
+          "recall": 1,
+          "false_alarm": 0
+        }
+      },
+      "api_ok": {
+        "recall": 0,
+        "false_alarm": 0
+      },
+      "ms_median": 107,
+      "ms_max": 358,
+      "calls_per_check": 1,
+      "missed": [],
+      "pass": true
+    },
+    "r3": {
+      "n": 60,
+      "readback": {
+        "recall": 1,
+        "false_alarm": 0
+      },
+      "per_kind": {
+        "d1": {
+          "recall": 1,
+          "false_alarm": 0
+        },
+        "worker_tags": {
+          "recall": 1,
+          "false_alarm": 0
+        },
+        "kv": {
+          "recall": 1,
+          "false_alarm": 0
+        }
+      },
+      "api_ok": {
+        "recall": 0,
+        "false_alarm": 0
+      },
+      "ms_median": 129,
+      "ms_max": 358,
+      "calls_per_check": 1,
+      "missed": [],
+      "pass": true
+    }
+  },
+  "pass": true
+}

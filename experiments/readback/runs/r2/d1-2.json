@@ -1,0 +1,25 @@
+{
+  "id": "d1-2",
+  "kind": "d1",
+  "fault": "honest",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "held",
+    "fields": [
+      {
+        "key": "a",
+        "expected": "a-3de97w",
+        "observed": "a-3de97w",
+        "held": true
+      },
+      {
+        "key": "b",
+        "expected": "b-er9hqp",
+        "observed": "b-er9hqp",
+        "held": true
+      }
+    ]
+  },
+  "ms": 103.75904099999934,
+  "calls": 1
+}

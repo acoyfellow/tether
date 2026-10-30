@@ -1,0 +1,19 @@
+{
+  "id": "kv-9",
+  "kind": "kv",
+  "fault": "honest",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "held",
+    "fields": [
+      {
+        "key": "value",
+        "expected": "v-ght619",
+        "observed": "v-ght619",
+        "held": true
+      }
+    ]
+  },
+  "ms": 70.22233299999971,
+  "calls": 1
+}

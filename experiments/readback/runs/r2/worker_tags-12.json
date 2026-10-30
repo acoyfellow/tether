@@ -1,0 +1,25 @@
+{
+  "id": "worker_tags-12",
+  "kind": "worker_tags",
+  "fault": "overwritten",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "tag0",
+        "expected": "rb-0-co93a2",
+        "observed": "rb-0-co93a2-x",
+        "held": false
+      },
+      {
+        "key": "tag1",
+        "expected": "rb-1-7599r6",
+        "observed": "rb-1-7599r6-x",
+        "held": false
+      }
+    ]
+  },
+  "ms": 281.65779199999815,
+  "calls": 1
+}

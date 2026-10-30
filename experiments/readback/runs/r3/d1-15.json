@@ -1,0 +1,25 @@
+{
+  "id": "d1-15",
+  "kind": "d1",
+  "fault": "wrong_value",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "a",
+        "expected": "a-4xmdtu",
+        "observed": "a-4xmdtu-x",
+        "held": false
+      },
+      {
+        "key": "b",
+        "expected": "b-dw9th8",
+        "observed": "b-dw9th8-x",
+        "held": false
+      }
+    ]
+  },
+  "ms": 100.93454199999906,
+  "calls": 1
+}

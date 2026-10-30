@@ -1,0 +1,25 @@
+{
+  "id": "worker_tags-1",
+  "kind": "worker_tags",
+  "fault": "honest",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "held",
+    "fields": [
+      {
+        "key": "tag0",
+        "expected": "rb-0-7ipwft",
+        "observed": "rb-0-7ipwft",
+        "held": true
+      },
+      {
+        "key": "tag1",
+        "expected": "rb-1-4vmxcs",
+        "observed": "rb-1-4vmxcs",
+        "held": true
+      }
+    ]
+  },
+  "ms": 356.2922089999993,
+  "calls": 1
+}

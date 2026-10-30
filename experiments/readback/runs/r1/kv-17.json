@@ -1,0 +1,19 @@
+{
+  "id": "kv-17",
+  "kind": "kv",
+  "fault": "wrong_value",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "value",
+        "expected": "v-b53e3i",
+        "observed": "v-b53e3i-x",
+        "held": false
+      }
+    ]
+  },
+  "ms": 76.51616699999977,
+  "calls": 1
+}

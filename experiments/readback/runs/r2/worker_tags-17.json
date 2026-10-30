@@ -1,0 +1,25 @@
+{
+  "id": "worker_tags-17",
+  "kind": "worker_tags",
+  "fault": "partial",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "tag0",
+        "expected": "rb-0-ehciop",
+        "observed": "tag0-old",
+        "held": false
+      },
+      {
+        "key": "tag1",
+        "expected": "rb-1-bd39kf",
+        "observed": "rb-1-bd39kf",
+        "held": true
+      }
+    ]
+  },
+  "ms": 171.73366600000008,
+  "calls": 1
+}

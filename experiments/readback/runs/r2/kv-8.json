@@ -1,0 +1,19 @@
+{
+  "id": "kv-8",
+  "kind": "kv",
+  "fault": "honest",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "held",
+    "fields": [
+      {
+        "key": "value",
+        "expected": "v-18e2mg",
+        "observed": "v-18e2mg",
+        "held": true
+      }
+    ]
+  },
+  "ms": 66.25629200000003,
+  "calls": 1
+}

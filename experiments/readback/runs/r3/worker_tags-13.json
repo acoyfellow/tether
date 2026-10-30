@@ -1,0 +1,25 @@
+{
+  "id": "worker_tags-13",
+  "kind": "worker_tags",
+  "fault": "partial",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "tag0",
+        "expected": "rb-0-62lgbo",
+        "observed": "rb-0-62lgbo",
+        "held": true
+      },
+      {
+        "key": "tag1",
+        "expected": "rb-1-8f7ltz",
+        "observed": "tag1-old",
+        "held": false
+      }
+    ]
+  },
+  "ms": 280.9937080000018,
+  "calls": 1
+}

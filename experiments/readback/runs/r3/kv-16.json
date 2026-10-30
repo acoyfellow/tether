@@ -1,0 +1,19 @@
+{
+  "id": "kv-16",
+  "kind": "kv",
+  "fault": "overwritten",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "value",
+        "expected": "v-16v2jc",
+        "observed": "v-16v2jc-x",
+        "held": false
+      }
+    ]
+  },
+  "ms": 99.74170799999956,
+  "calls": 1
+}

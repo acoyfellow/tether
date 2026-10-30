@@ -1,0 +1,25 @@
+{
+  "id": "d1-16",
+  "kind": "d1",
+  "fault": "overwritten",
+  "api_ok": "held",
+  "readback": {
+    "verdict": "broken",
+    "fields": [
+      {
+        "key": "a",
+        "expected": "a-9xp1k7",
+        "observed": "a-9xp1k7-x",
+        "held": false
+      },
+      {
+        "key": "b",
+        "expected": "b-5ubpij",
+        "observed": "b-5ubpij-x",
+        "held": false
+      }
+    ]
+  },
+  "ms": 106.57291600000099,
+  "calls": 1
+}
