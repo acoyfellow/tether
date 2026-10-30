@@ -7,7 +7,7 @@
 | Read-back recall, every kind | 1.0 | 1.0 | 1.0 | = 1.0 |
 | Read-back false alarm | 0 | 0 | 0 | ≤ 5% |
 | "API said ok" recall | 0 | 0 | 0 | < 0.5 |
-| Median time per check | 116 ms | 107 ms | see receipt | < 1 s |
+| Median time per check | 116 ms | 107 ms | 129 ms | < 1 s |
 | API calls per check | 1 | 1 | 1 | — |
 
 All 30 faulty writes per run returned `success: true`. The "API said ok" rule passed all of them. One GET per write caught all of them.
