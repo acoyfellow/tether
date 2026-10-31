@@ -1,0 +1,21 @@
+{
+  "id": "script_tags-4-never_applied",
+  "task": "script_tags",
+  "fault": "never_applied",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-5/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-4\",\"tier-4\"]",
+      "held": false
+    }
+  ],
+  "observed": [
+    "team-4x",
+    "tier-4x"
+  ],
+  "ms": 182.14733400000114
+}

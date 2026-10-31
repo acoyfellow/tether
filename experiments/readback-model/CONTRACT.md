@@ -84,3 +84,10 @@ In each of 3 runs:
 ## Disproof exit
 
 If false alarm is above 10%, the claim is disproven for model-written `changes`. Each false alarm is listed with its key and the observed shape. That list is the spec for what `changes` would need to carry.
+
+## Deviations
+
+1. The first generation pass was rejected before any run. Haiku answered 11 of 20 prompts with "I have no execute tool" because the prompt read as a request to act. The prompt now states that the model writes the call arguments and the harness runs them. The first pass is kept as `writes-pass1.json`.
+2. The probe run (`runs/probe`, kept, not scored) showed two harness faults:
+   - The fault value appended `x`, which made cron strings invalid. The fault write was then rejected, so `never_applied` and `wrong_value` cases never left the resource at a different value. Fault values now change the last digit of a string, or flip a boolean. A case counts as valid only when the reset write and the fault write returned 2xx.
+   - The harness did not record whether the model's own write was accepted. Two `script_logpush` writes used a request the API rejected, and that is an `api_ok` catch, not a read-back result. Each case now records the status of every setup write. `score.ts` reports cases whose honest write the API rejected as `write_rejected` and leaves them out of recall and false alarm.

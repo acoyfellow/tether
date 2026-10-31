@@ -1,0 +1,26 @@
+{
+  "id": "script_logpush-2-never_applied",
+  "task": "script_logpush",
+  "fault": "never_applied",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-3/script-settings",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "logpush",
+      "expected": "true",
+      "held": false
+    }
+  ],
+  "observed": {
+    "logpush": false,
+    "tags": [
+      "team-2x",
+      "tier-2x"
+    ],
+    "tail_consumers": null,
+    "observability": null
+  },
+  "ms": 211.531167000001
+}

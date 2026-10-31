@@ -1,0 +1,33 @@
+{
+  "id": "script_logpush-3-honest",
+  "task": "script_logpush",
+  "fault": "honest",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-4/settings",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "logpush",
+      "expected": "false",
+      "held": true
+    }
+  ],
+  "observed": {
+    "placement": {},
+    "compatibility_date": "2025-09-01",
+    "compatibility_flags": [],
+    "usage_model": "standard",
+    "tags": [
+      "team-3",
+      "tier-3"
+    ],
+    "tail_consumers": [],
+    "logpush": false,
+    "annotations": {
+      "workers/triggered_by": "version_upload"
+    },
+    "bindings": []
+  },
+  "ms": 224.08516600000075
+}

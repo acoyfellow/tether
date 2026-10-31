@@ -1,0 +1,31 @@
+{
+  "id": "script_logpush-1-honest",
+  "task": "script_logpush",
+  "fault": "honest",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": true,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-2/script-settings",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "logpush",
+      "expected": "false",
+      "held": true
+    }
+  ],
+  "observed": {
+    "logpush": false,
+    "tags": [
+      "team-2",
+      "tier-2"
+    ],
+    "tail_consumers": null,
+    "observability": null
+  },
+  "ms": 301.24424999999974
+}

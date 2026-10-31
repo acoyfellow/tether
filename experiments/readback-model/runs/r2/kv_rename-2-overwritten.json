@@ -1,0 +1,27 @@
+{
+  "id": "kv_rename-2-overwritten",
+  "task": "kv_rename",
+  "fault": "overwritten",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": true,
+    "fault_ok": true
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/storage/kv/namespaces/79cfce90b4ab46a3a72350e734d697b5",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "title",
+      "expected": "gl-probe-kv-2",
+      "held": false
+    }
+  ],
+  "observed": {
+    "id": "79cfce90b4ab46a3a72350e734d697b5",
+    "title": "gl-probe-kv-3",
+    "supports_url_encoding": true
+  },
+  "ms": 142.76091599999972
+}

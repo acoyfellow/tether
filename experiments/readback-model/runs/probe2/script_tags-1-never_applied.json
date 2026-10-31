@@ -1,0 +1,26 @@
+{
+  "id": "script_tags-1-never_applied",
+  "task": "script_tags",
+  "fault": "never_applied",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": null,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-2/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-1\",\"tier-1\"]",
+      "held": false
+    }
+  ],
+  "observed": [
+    "team-2",
+    "tier-2"
+  ],
+  "ms": 206.51924999999937
+}

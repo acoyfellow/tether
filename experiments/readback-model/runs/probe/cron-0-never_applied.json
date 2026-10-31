@@ -1,0 +1,26 @@
+{
+  "id": "cron-0-never_applied",
+  "task": "cron",
+  "fault": "never_applied",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-1/schedules",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "cron",
+      "expected": "1 * * * *",
+      "held": true
+    }
+  ],
+  "observed": {
+    "schedules": [
+      {
+        "cron": "1 * * * *",
+        "created_on": "2026-10-31T10:59:26.106738Z",
+        "modified_on": "2026-10-31T10:59:26.106738Z"
+      }
+    ]
+  },
+  "ms": 272.50195800000074
+}

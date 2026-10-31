@@ -1,0 +1,140 @@
+{
+  "runs": {
+    "r1": {
+      "n": 40,
+      "valid": 34,
+      "write_rejected": [
+        "script_logpush-0-honest",
+        "script_logpush-3-honest",
+        "script_logpush-4-honest"
+      ],
+      "setup_invalid": [
+        "script_logpush-3-wrong_value",
+        "script_logpush-4-overwritten",
+        "script_logpush-0-wrong_value"
+      ],
+      "derivable": 1,
+      "faulty": 17,
+      "recall": 1,
+      "missed": [],
+      "honest": 17,
+      "false_alarm": 0.11764705882352941,
+      "false_alarms": [
+        {
+          "id": "cron-2-honest",
+          "fields": [
+            {
+              "key": "schedules[0].cron",
+              "expected": "3 * * * *",
+              "held": false
+            }
+          ],
+          "observed": "{\"schedules\":[{\"cron\":\"3 * * * *\",\"created_on\":\"2026-10-31T11:01:48.257696Z\",\"modified_on\":\"2026-10-31T11:01:48.257696Z\"}]}"
+        },
+        {
+          "id": "script_tags-3-honest",
+          "fields": [
+            {
+              "key": "tags",
+              "expected": "team-3,tier-3",
+              "held": false
+            }
+          ],
+          "observed": "[\"team-3\",\"tier-3\"]"
+        }
+      ],
+      "pass": false
+    },
+    "r2": {
+      "n": 40,
+      "valid": 34,
+      "write_rejected": [
+        "script_logpush-0-honest",
+        "script_logpush-3-honest",
+        "script_logpush-4-honest"
+      ],
+      "setup_invalid": [
+        "script_logpush-3-wrong_value",
+        "script_logpush-4-overwritten",
+        "script_logpush-0-wrong_value"
+      ],
+      "derivable": 1,
+      "faulty": 17,
+      "recall": 1,
+      "missed": [],
+      "honest": 17,
+      "false_alarm": 0.11764705882352941,
+      "false_alarms": [
+        {
+          "id": "cron-2-honest",
+          "fields": [
+            {
+              "key": "schedules[0].cron",
+              "expected": "3 * * * *",
+              "held": false
+            }
+          ],
+          "observed": "{\"schedules\":[{\"cron\":\"3 * * * *\",\"created_on\":\"2026-10-31T11:02:22.826898Z\",\"modified_on\":\"2026-10-31T11:02:22.826898Z\"}]}"
+        },
+        {
+          "id": "script_tags-3-honest",
+          "fields": [
+            {
+              "key": "tags",
+              "expected": "team-3,tier-3",
+              "held": false
+            }
+          ],
+          "observed": "[\"team-3\",\"tier-3\"]"
+        }
+      ],
+      "pass": false
+    },
+    "r3": {
+      "n": 40,
+      "valid": 34,
+      "write_rejected": [
+        "script_logpush-0-honest",
+        "script_logpush-3-honest",
+        "script_logpush-4-honest"
+      ],
+      "setup_invalid": [
+        "script_logpush-3-wrong_value",
+        "script_logpush-4-overwritten",
+        "script_logpush-0-wrong_value"
+      ],
+      "derivable": 1,
+      "faulty": 17,
+      "recall": 1,
+      "missed": [],
+      "honest": 17,
+      "false_alarm": 0.11764705882352941,
+      "false_alarms": [
+        {
+          "id": "cron-2-honest",
+          "fields": [
+            {
+              "key": "schedules[0].cron",
+              "expected": "3 * * * *",
+              "held": false
+            }
+          ],
+          "observed": "{\"schedules\":[{\"cron\":\"3 * * * *\",\"created_on\":\"2026-10-31T11:02:52.157203Z\",\"modified_on\":\"2026-10-31T11:02:52.157203Z\"}]}"
+        },
+        {
+          "id": "script_tags-3-honest",
+          "fields": [
+            {
+              "key": "tags",
+              "expected": "team-3,tier-3",
+              "held": false
+            }
+          ],
+          "observed": "[\"team-3\",\"tier-3\"]"
+        }
+      ],
+      "pass": false
+    }
+  },
+  "pass": false
+}

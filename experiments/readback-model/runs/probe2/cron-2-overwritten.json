@@ -1,0 +1,31 @@
+{
+  "id": "cron-2-overwritten",
+  "task": "cron",
+  "fault": "overwritten",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": true,
+    "fault_ok": true
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-3/schedules",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "schedules[0].cron",
+      "expected": "3 * * * *",
+      "held": false
+    }
+  ],
+  "observed": {
+    "schedules": [
+      {
+        "cron": "4 * * * *",
+        "created_on": "2026-10-31T11:00:47.280668Z",
+        "modified_on": "2026-10-31T11:00:47.280668Z"
+      }
+    ]
+  },
+  "ms": 397.153707999998
+}

@@ -1,0 +1,21 @@
+{
+  "id": "script_tags-0-honest",
+  "task": "script_tags",
+  "fault": "honest",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-1/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-0\",\"tier-0\"]",
+      "held": true
+    }
+  ],
+  "observed": [
+    "team-0",
+    "tier-0"
+  ],
+  "ms": 263.1017499999998
+}

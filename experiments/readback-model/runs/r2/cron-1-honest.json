@@ -1,0 +1,31 @@
+{
+  "id": "cron-1-honest",
+  "task": "cron",
+  "fault": "honest",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": true,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-2/schedules",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "cron",
+      "expected": "2 * * * *",
+      "held": true
+    }
+  ],
+  "observed": {
+    "schedules": [
+      {
+        "cron": "2 * * * *",
+        "created_on": "2026-10-31T11:02:20.756605Z",
+        "modified_on": "2026-10-31T11:02:20.756605Z"
+      }
+    ]
+  },
+  "ms": 261.8595419999983
+}

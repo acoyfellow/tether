@@ -1,0 +1,22 @@
+{
+  "id": "kv_rename-1-wrong_value",
+  "task": "kv_rename",
+  "fault": "wrong_value",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/storage/kv/namespaces/79cfce90b4ab46a3a72350e734d697b5",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "title",
+      "expected": "gl-probe-kv-1",
+      "held": false
+    }
+  ],
+  "observed": {
+    "id": "79cfce90b4ab46a3a72350e734d697b5",
+    "title": "gl-probe-kv-1x",
+    "supports_url_encoding": true
+  },
+  "ms": 192.18079099999977
+}

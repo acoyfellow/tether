@@ -1,0 +1,21 @@
+{
+  "id": "script_tags-0-overwritten",
+  "task": "script_tags",
+  "fault": "overwritten",
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-1/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-0\",\"tier-0\"]",
+      "held": false
+    }
+  ],
+  "observed": [
+    "team-0x",
+    "tier-0x"
+  ],
+  "ms": 317.34599999999955
+}

@@ -1,0 +1,38 @@
+{
+  "id": "script_logpush-4-overwritten",
+  "task": "script_logpush",
+  "fault": "overwritten",
+  "setup": {
+    "reset_ok": false,
+    "write_ok": false,
+    "fault_ok": false
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-5/settings",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "logpush",
+      "expected": "true",
+      "held": false
+    }
+  ],
+  "observed": {
+    "placement": {},
+    "compatibility_date": "2025-09-01",
+    "compatibility_flags": [],
+    "usage_model": "standard",
+    "tags": [
+      "team-5",
+      "tier-5"
+    ],
+    "tail_consumers": [],
+    "logpush": false,
+    "annotations": {
+      "workers/triggered_by": "version_upload"
+    },
+    "bindings": []
+  },
+  "ms": 340.3119579999984
+}
