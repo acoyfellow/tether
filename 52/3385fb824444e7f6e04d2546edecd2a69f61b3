@@ -1,0 +1,451 @@
+experiments/readback-model/.pi/fresh-session-handoff/state.json
+  s_5f045b53b1dfb4::t_6c9907f9d674f1 1-48
+experiments/readback-model/CONTRACT.md
+  s_5f045b53b1dfb4::t_2872654f34e977 87-93
+experiments/readback-model/FINDINGS.md
+  s_5f045b53b1dfb4::t_6ae878115015be 1-37
+experiments/readback-model/gen.ts
+  s_5f045b53b1dfb4::t_74b6dd9747f66c 1-44
+experiments/readback-model/receipt.json
+  s_5f045b53b1dfb4::t_a962ac6b0cb139 1-140
+experiments/readback-model/run.ts
+  s_5f045b53b1dfb4::t_510ac874feac48 1-119
+experiments/readback-model/runs/probe/cron-0-honest.json
+  s_5f045b53b1dfb4::t_08726078836d94 1-26
+experiments/readback-model/runs/probe/cron-0-never_applied.json
+  s_5f045b53b1dfb4::t_2a7d4083f733f8 1-26
+experiments/readback-model/runs/probe/cron-1-honest.json
+  s_5f045b53b1dfb4::t_e8921310941989 1-26
+experiments/readback-model/runs/probe/cron-1-wrong_value.json
+  s_5f045b53b1dfb4::t_b83c5426f35723 1-26
+experiments/readback-model/runs/probe/cron-2-honest.json
+  s_5f045b53b1dfb4::t_aa414f97f72e79 1-26
+experiments/readback-model/runs/probe/cron-2-overwritten.json
+  s_5f045b53b1dfb4::t_439a8a48cb136b 1-26
+experiments/readback-model/runs/probe/cron-3-honest.json
+  s_5f045b53b1dfb4::t_7c2b74b7b05847 1-26
+experiments/readback-model/runs/probe/cron-3-never_applied.json
+  s_5f045b53b1dfb4::t_f860e8ff79d9fa 1-26
+experiments/readback-model/runs/probe/cron-4-honest.json
+  s_5f045b53b1dfb4::t_5d1dbbdbaf5e81 1-26
+experiments/readback-model/runs/probe/cron-4-wrong_value.json
+  s_5f045b53b1dfb4::t_1a0064f5ab265c 1-26
+experiments/readback-model/runs/probe/kv_rename-0-honest.json
+  s_5f045b53b1dfb4::t_527a5b243fa5d4 1-22
+experiments/readback-model/runs/probe/kv_rename-0-never_applied.json
+  s_5f045b53b1dfb4::t_30d4955e5f92d7 1-22
+experiments/readback-model/runs/probe/kv_rename-1-honest.json
+  s_5f045b53b1dfb4::t_d159bd0a7ebc8d 1-22
+experiments/readback-model/runs/probe/kv_rename-1-wrong_value.json
+  s_5f045b53b1dfb4::t_90358c6127d130 1-22
+experiments/readback-model/runs/probe/kv_rename-2-honest.json
+  s_5f045b53b1dfb4::t_cf38fdbe50d72f 1-22
+experiments/readback-model/runs/probe/kv_rename-2-overwritten.json
+  s_5f045b53b1dfb4::t_a1d1333a5c7677 1-22
+experiments/readback-model/runs/probe/kv_rename-3-honest.json
+  s_5f045b53b1dfb4::t_24031616ddda8c 1-22
+experiments/readback-model/runs/probe/kv_rename-3-never_applied.json
+  s_5f045b53b1dfb4::t_5a6e7249b07575 1-22
+experiments/readback-model/runs/probe/kv_rename-4-honest.json
+  s_5f045b53b1dfb4::t_cdfda56f921200 1-22
+experiments/readback-model/runs/probe/kv_rename-4-wrong_value.json
+  s_5f045b53b1dfb4::t_f84ddfcbc7ef94 1-22
+experiments/readback-model/runs/probe/script_logpush-0-honest.json
+  s_5f045b53b1dfb4::t_89352d183edd2d 1-33
+experiments/readback-model/runs/probe/script_logpush-0-wrong_value.json
+  s_5f045b53b1dfb4::t_4fea9fb1fd1138 1-33
+experiments/readback-model/runs/probe/script_logpush-1-honest.json
+  s_5f045b53b1dfb4::t_0616edb7e82549 1-26
+experiments/readback-model/runs/probe/script_logpush-1-overwritten.json
+  s_5f045b53b1dfb4::t_7ad4b525e665a7 1-26
+experiments/readback-model/runs/probe/script_logpush-2-honest.json
+  s_5f045b53b1dfb4::t_37784966c3a2c3 1-26
+experiments/readback-model/runs/probe/script_logpush-2-never_applied.json
+  s_5f045b53b1dfb4::t_1f71c783657ad7 1-26
+experiments/readback-model/runs/probe/script_logpush-3-honest.json
+  s_5f045b53b1dfb4::t_603a2b779d5f70 1-33
+experiments/readback-model/runs/probe/script_logpush-3-wrong_value.json
+  s_5f045b53b1dfb4::t_ac0ea8173ef40a 1-33
+experiments/readback-model/runs/probe/script_logpush-4-honest.json
+  s_5f045b53b1dfb4::t_55060675abf43b 1-33
+experiments/readback-model/runs/probe/script_logpush-4-overwritten.json
+  s_5f045b53b1dfb4::t_e08a0025cd74c6 1-33
+experiments/readback-model/runs/probe/script_tags-0-honest.json
+  s_5f045b53b1dfb4::t_2786793d3c103a 1-21
+experiments/readback-model/runs/probe/script_tags-0-overwritten.json
+  s_5f045b53b1dfb4::t_d69954a487b4a8 1-21
+experiments/readback-model/runs/probe/script_tags-1-honest.json
+  s_5f045b53b1dfb4::t_ba22bb4118bb88 1-21
+experiments/readback-model/runs/probe/script_tags-1-never_applied.json
+  s_5f045b53b1dfb4::t_f6bc8808f03550 1-21
+experiments/readback-model/runs/probe/script_tags-2-honest.json
+  s_5f045b53b1dfb4::t_d5467b47bd0367 1-21
+experiments/readback-model/runs/probe/script_tags-2-wrong_value.json
+  s_5f045b53b1dfb4::t_6d49783430ec62 1-21
+experiments/readback-model/runs/probe/script_tags-3-honest.json
+  s_5f045b53b1dfb4::t_3969c98ebf9b83 1-21
+experiments/readback-model/runs/probe/script_tags-3-overwritten.json
+  s_5f045b53b1dfb4::t_fee2d988de1e79 1-21
+experiments/readback-model/runs/probe/script_tags-4-honest.json
+  s_5f045b53b1dfb4::t_a7d131d949c5d9 1-21
+experiments/readback-model/runs/probe/script_tags-4-never_applied.json
+  s_5f045b53b1dfb4::t_813f854310238a 1-21
+experiments/readback-model/runs/probe2/cron-0-honest.json
+  s_231221b99fcbf7::t_93fcd23b01417e 1-31
+experiments/readback-model/runs/probe2/cron-0-never_applied.json
+  s_5f045b53b1dfb4::t_51fa6c6638384a 1-31
+experiments/readback-model/runs/probe2/cron-1-honest.json
+  s_5f045b53b1dfb4::t_9c5c20df487797 1-31
+experiments/readback-model/runs/probe2/cron-1-wrong_value.json
+  s_5f045b53b1dfb4::t_82335f4ee100c7 1-31
+experiments/readback-model/runs/probe2/cron-2-honest.json
+  s_5f045b53b1dfb4::t_d20f7da8b4eb95 1-31
+experiments/readback-model/runs/probe2/cron-2-overwritten.json
+  s_231221b99fcbf7::t_2133a23d794a20 1-31
+experiments/readback-model/runs/probe2/cron-3-honest.json
+  s_5f045b53b1dfb4::t_4f4f75bd1b94cb 1-31
+experiments/readback-model/runs/probe2/cron-3-never_applied.json
+  s_5f045b53b1dfb4::t_7f8e3f494ea326 1-31
+experiments/readback-model/runs/probe2/cron-4-honest.json
+  s_5f045b53b1dfb4::t_fb90ec98afec67 1-31
+experiments/readback-model/runs/probe2/cron-4-wrong_value.json
+  s_5f045b53b1dfb4::t_422bf3e93e4333 1-31
+experiments/readback-model/runs/probe2/kv_rename-0-honest.json
+  s_5f045b53b1dfb4::t_84f24a92b73f69 1-27
+experiments/readback-model/runs/probe2/kv_rename-0-never_applied.json
+  s_5f045b53b1dfb4::t_01165410eeb7f7 1-27
+experiments/readback-model/runs/probe2/kv_rename-1-honest.json
+  s_5f045b53b1dfb4::t_9766e31080e123 1-27
+experiments/readback-model/runs/probe2/kv_rename-1-wrong_value.json
+  s_5f045b53b1dfb4::t_49c163a21a402d 1-27
+experiments/readback-model/runs/probe2/kv_rename-2-honest.json
+  s_5f045b53b1dfb4::t_97be874b32ce6b 1-27
+experiments/readback-model/runs/probe2/kv_rename-2-overwritten.json
+  s_5f045b53b1dfb4::t_810d528d6db9f0 1-27
+experiments/readback-model/runs/probe2/kv_rename-3-honest.json
+  s_5f045b53b1dfb4::t_c1e99638bddcdd 1-27
+experiments/readback-model/runs/probe2/kv_rename-3-never_applied.json
+  s_5f045b53b1dfb4::t_841880ccf74354 1-27
+experiments/readback-model/runs/probe2/kv_rename-4-honest.json
+  s_5f045b53b1dfb4::t_f730142b161ac1 1-27
+experiments/readback-model/runs/probe2/kv_rename-4-wrong_value.json
+  s_5f045b53b1dfb4::t_7750b0c300dd9f 1-27
+experiments/readback-model/runs/probe2/script_logpush-0-honest.json
+  s_5f045b53b1dfb4::t_6135320d201d53 1-38
+experiments/readback-model/runs/probe2/script_logpush-0-wrong_value.json
+  s_5f045b53b1dfb4::t_a6bca3211f789a 1-38
+experiments/readback-model/runs/probe2/script_logpush-1-honest.json
+  s_5f045b53b1dfb4::t_1048ab61493d6c 1-31
+experiments/readback-model/runs/probe2/script_logpush-1-overwritten.json
+  s_5f045b53b1dfb4::t_27331a915ae307 1-31
+experiments/readback-model/runs/probe2/script_logpush-2-honest.json
+  s_5f045b53b1dfb4::t_b7d4951b31562d 1-31
+experiments/readback-model/runs/probe2/script_logpush-2-never_applied.json
+  s_5f045b53b1dfb4::t_d70861328ca26f 1-31
+experiments/readback-model/runs/probe2/script_logpush-3-honest.json
+  s_5f045b53b1dfb4::t_091830f9572f60 1-38
+experiments/readback-model/runs/probe2/script_logpush-3-wrong_value.json
+  s_5f045b53b1dfb4::t_320e2fc519edf1 1-38
+experiments/readback-model/runs/probe2/script_logpush-4-honest.json
+  s_5f045b53b1dfb4::t_fccc2875eb1a5c 1-38
+experiments/readback-model/runs/probe2/script_logpush-4-overwritten.json
+  s_5f045b53b1dfb4::t_efdd2ec2332545 1-38
+experiments/readback-model/runs/probe2/script_tags-0-honest.json
+  s_5f045b53b1dfb4::t_77c458fc1a447a 1-26
+experiments/readback-model/runs/probe2/script_tags-0-overwritten.json
+  s_5f045b53b1dfb4::t_4e94ca77f2bdca 1-26
+experiments/readback-model/runs/probe2/script_tags-1-honest.json
+  s_5f045b53b1dfb4::t_3480149c447b7b 1-26
+experiments/readback-model/runs/probe2/script_tags-1-never_applied.json
+  s_5f045b53b1dfb4::t_7434ae932c7bfa 1-26
+experiments/readback-model/runs/probe2/script_tags-2-honest.json
+  s_5f045b53b1dfb4::t_b2bfca807c45fb 1-26
+experiments/readback-model/runs/probe2/script_tags-2-wrong_value.json
+  s_5f045b53b1dfb4::t_73ebc0ee805892 1-26
+experiments/readback-model/runs/probe2/script_tags-3-honest.json
+  s_5f045b53b1dfb4::t_0c3c9185c79e42 1-26
+experiments/readback-model/runs/probe2/script_tags-3-overwritten.json
+  s_5f045b53b1dfb4::t_84f40360d62525 1-26
+experiments/readback-model/runs/probe2/script_tags-4-honest.json
+  s_5f045b53b1dfb4::t_efe237273365aa 1-26
+experiments/readback-model/runs/probe2/script_tags-4-never_applied.json
+  s_5f045b53b1dfb4::t_c9ea2a944f20f4 1-26
+experiments/readback-model/runs/r1/cron-0-honest.json
+  s_231221b99fcbf7::t_8b7df60c632f24 1-31
+experiments/readback-model/runs/r1/cron-0-never_applied.json
+  s_231221b99fcbf7::t_97ae52fd2fbfb0 1-31
+experiments/readback-model/runs/r1/cron-1-honest.json
+  s_231221b99fcbf7::t_1137f9074817ad 1-31
+experiments/readback-model/runs/r1/cron-1-wrong_value.json
+  s_231221b99fcbf7::t_40ddc330fd06bd 1-31
+experiments/readback-model/runs/r1/cron-2-honest.json
+  s_231221b99fcbf7::t_fb8061fe7618b6 1-31
+experiments/readback-model/runs/r1/cron-2-overwritten.json
+  s_5f045b53b1dfb4::t_603481e3b57af5 1-31
+experiments/readback-model/runs/r1/cron-3-honest.json
+  s_5f045b53b1dfb4::t_8bf35973879b73 1-31
+experiments/readback-model/runs/r1/cron-3-never_applied.json
+  s_5f045b53b1dfb4::t_43e87ae8918f2a 1-31
+experiments/readback-model/runs/r1/cron-4-honest.json
+  s_5f045b53b1dfb4::t_58682002a0608b 1-31
+experiments/readback-model/runs/r1/cron-4-wrong_value.json
+  s_5f045b53b1dfb4::t_0ac821dd9df127 1-31
+experiments/readback-model/runs/r1/kv_rename-0-honest.json
+  s_5f045b53b1dfb4::t_24bc615316394c 1-27
+experiments/readback-model/runs/r1/kv_rename-0-never_applied.json
+  s_5f045b53b1dfb4::t_7c80cb9fa38da2 1-27
+experiments/readback-model/runs/r1/kv_rename-1-honest.json
+  s_5f045b53b1dfb4::t_d32837526e7ae5 1-27
+experiments/readback-model/runs/r1/kv_rename-1-wrong_value.json
+  s_5f045b53b1dfb4::t_999624d61e03d0 1-27
+experiments/readback-model/runs/r1/kv_rename-2-honest.json
+  s_5f045b53b1dfb4::t_de08ec8c0addd8 1-27
+experiments/readback-model/runs/r1/kv_rename-2-overwritten.json
+  s_5f045b53b1dfb4::t_8daeba74facbfe 1-27
+experiments/readback-model/runs/r1/kv_rename-3-honest.json
+  s_5f045b53b1dfb4::t_37eb1dc38501ea 1-27
+experiments/readback-model/runs/r1/kv_rename-3-never_applied.json
+  s_5f045b53b1dfb4::t_f0a250857b70d8 1-27
+experiments/readback-model/runs/r1/kv_rename-4-honest.json
+  s_5f045b53b1dfb4::t_b78de11dcd0abb 1-27
+experiments/readback-model/runs/r1/kv_rename-4-wrong_value.json
+  s_5f045b53b1dfb4::t_983d6291d2d566 1-27
+experiments/readback-model/runs/r1/script_logpush-0-honest.json
+  s_5f045b53b1dfb4::t_fb0e9523719443 1-38
+experiments/readback-model/runs/r1/script_logpush-0-wrong_value.json
+  s_5f045b53b1dfb4::t_f2b366dea58145 1-38
+experiments/readback-model/runs/r1/script_logpush-1-honest.json
+  s_5f045b53b1dfb4::t_13d60815301681 1-31
+experiments/readback-model/runs/r1/script_logpush-1-overwritten.json
+  s_5f045b53b1dfb4::t_9db1e177d801f7 1-31
+experiments/readback-model/runs/r1/script_logpush-2-honest.json
+  s_5f045b53b1dfb4::t_06d604e7f2a53c 1-31
+experiments/readback-model/runs/r1/script_logpush-2-never_applied.json
+  s_5f045b53b1dfb4::t_26d15dee562daa 1-31
+experiments/readback-model/runs/r1/script_logpush-3-honest.json
+  s_5f045b53b1dfb4::t_0761c29fd20e03 1-38
+experiments/readback-model/runs/r1/script_logpush-3-wrong_value.json
+  s_5f045b53b1dfb4::t_d9eda1c945f80c 1-38
+experiments/readback-model/runs/r1/script_logpush-4-honest.json
+  s_5f045b53b1dfb4::t_ca154aa4ba14aa 1-38
+experiments/readback-model/runs/r1/script_logpush-4-overwritten.json
+  s_5f045b53b1dfb4::t_1b0f4819f6d47f 1-38
+experiments/readback-model/runs/r1/script_tags-0-honest.json
+  s_5f045b53b1dfb4::t_b6511e78d8b8d0 1-26
+experiments/readback-model/runs/r1/script_tags-0-overwritten.json
+  s_5f045b53b1dfb4::t_0a8c8aad98f980 1-26
+experiments/readback-model/runs/r1/script_tags-1-honest.json
+  s_5f045b53b1dfb4::t_d37b3fe7bc91b9 1-26
+experiments/readback-model/runs/r1/script_tags-1-never_applied.json
+  s_5f045b53b1dfb4::t_cbc58159c011a6 1-26
+experiments/readback-model/runs/r1/script_tags-2-honest.json
+  s_5f045b53b1dfb4::t_21a1226cfd9287 1-26
+experiments/readback-model/runs/r1/script_tags-2-wrong_value.json
+  s_5f045b53b1dfb4::t_16f7fc8569b099 1-26
+experiments/readback-model/runs/r1/script_tags-3-honest.json
+  s_5f045b53b1dfb4::t_68db0dc63a3ca9 1-26
+experiments/readback-model/runs/r1/script_tags-3-overwritten.json
+  s_5f045b53b1dfb4::t_f60f821ab5b855 1-26
+experiments/readback-model/runs/r1/script_tags-4-honest.json
+  s_5f045b53b1dfb4::t_899581a00e8f92 1-26
+experiments/readback-model/runs/r1/script_tags-4-never_applied.json
+  s_5f045b53b1dfb4::t_b021c481d97ff7 1-26
+experiments/readback-model/runs/r2/cron-0-honest.json
+  s_5f045b53b1dfb4::t_143ae82c97e8b8 1-31
+experiments/readback-model/runs/r2/cron-0-never_applied.json
+  s_aff9605c3b4204::t_fef9aae2641498 1-31
+experiments/readback-model/runs/r2/cron-1-honest.json
+  s_aff9605c3b4204::t_6b73f43a8fa82f 1-31
+experiments/readback-model/runs/r2/cron-1-wrong_value.json
+  s_aff9605c3b4204::t_921fef6b664e76 1-31
+experiments/readback-model/runs/r2/cron-2-honest.json
+  s_aff9605c3b4204::t_af06b88f892fca 1-31
+experiments/readback-model/runs/r2/cron-2-overwritten.json
+  s_aff9605c3b4204::t_3a1a79d6f686e2 1-31
+experiments/readback-model/runs/r2/cron-3-honest.json
+  s_aff9605c3b4204::t_78860f9ecb0873 1-31
+experiments/readback-model/runs/r2/cron-3-never_applied.json
+  s_aff9605c3b4204::t_5aba1a86ecac8d 1-31
+experiments/readback-model/runs/r2/cron-4-honest.json
+  s_aff9605c3b4204::t_6defbe12c430a5 1-31
+experiments/readback-model/runs/r2/cron-4-wrong_value.json
+  s_aff9605c3b4204::t_f7e2907a63bde8 1-31
+experiments/readback-model/runs/r2/kv_rename-0-honest.json
+  s_5f045b53b1dfb4::t_9dc98d91844061 1-27
+experiments/readback-model/runs/r2/kv_rename-0-never_applied.json
+  s_5f045b53b1dfb4::t_637b4613adfdc7 1-27
+experiments/readback-model/runs/r2/kv_rename-1-honest.json
+  s_5f045b53b1dfb4::t_f729470796e3fe 1-27
+experiments/readback-model/runs/r2/kv_rename-1-wrong_value.json
+  s_5f045b53b1dfb4::t_d61c7a4c50b8d9 1-27
+experiments/readback-model/runs/r2/kv_rename-2-honest.json
+  s_5f045b53b1dfb4::t_f99c30193249e7 1-27
+experiments/readback-model/runs/r2/kv_rename-2-overwritten.json
+  s_5f045b53b1dfb4::t_7cc6271844cfb5 1-27
+experiments/readback-model/runs/r2/kv_rename-3-honest.json
+  s_5f045b53b1dfb4::t_e195c81195793d 1-27
+experiments/readback-model/runs/r2/kv_rename-3-never_applied.json
+  s_5f045b53b1dfb4::t_baca1ce646e0a0 1-27
+experiments/readback-model/runs/r2/kv_rename-4-honest.json
+  s_5f045b53b1dfb4::t_8f5d784c598d21 1-27
+experiments/readback-model/runs/r2/kv_rename-4-wrong_value.json
+  s_5f045b53b1dfb4::t_9d1cb1b3e01075 1-27
+experiments/readback-model/runs/r2/script_logpush-0-honest.json
+  s_5f045b53b1dfb4::t_cb611e8f60893a 1-38
+experiments/readback-model/runs/r2/script_logpush-0-wrong_value.json
+  s_5f045b53b1dfb4::t_cec5529987c49a 1-38
+experiments/readback-model/runs/r2/script_logpush-1-honest.json
+  s_5f045b53b1dfb4::t_13b154d6b07228 1-31
+experiments/readback-model/runs/r2/script_logpush-1-overwritten.json
+  s_5f045b53b1dfb4::t_08b030f599e9d6 1-31
+experiments/readback-model/runs/r2/script_logpush-2-honest.json
+  s_5f045b53b1dfb4::t_b51bfa94f3934b 1-31
+experiments/readback-model/runs/r2/script_logpush-2-never_applied.json
+  s_5f045b53b1dfb4::t_47a55c04122172 1-31
+experiments/readback-model/runs/r2/script_logpush-3-honest.json
+  s_5f045b53b1dfb4::t_5a9b447d942729 1-38
+experiments/readback-model/runs/r2/script_logpush-3-wrong_value.json
+  s_5f045b53b1dfb4::t_d9f6c9aaafe480 1-38
+experiments/readback-model/runs/r2/script_logpush-4-honest.json
+  s_5f045b53b1dfb4::t_49a5efff0ce373 1-38
+experiments/readback-model/runs/r2/script_logpush-4-overwritten.json
+  s_5f045b53b1dfb4::t_ed0fb0a4482f22 1-38
+experiments/readback-model/runs/r2/script_tags-0-honest.json
+  s_5f045b53b1dfb4::t_4693e5bf44760c 1-26
+experiments/readback-model/runs/r2/script_tags-0-overwritten.json
+  s_5f045b53b1dfb4::t_4710e59ba15889 1-26
+experiments/readback-model/runs/r2/script_tags-1-honest.json
+  s_231221b99fcbf7::t_fef27e419d274c 1-26
+experiments/readback-model/runs/r2/script_tags-1-never_applied.json
+  s_5f045b53b1dfb4::t_3ae3e86c626180 1-26
+experiments/readback-model/runs/r2/script_tags-2-honest.json
+  s_5f045b53b1dfb4::t_022fbdfdbd04f7 1-26
+experiments/readback-model/runs/r2/script_tags-2-wrong_value.json
+  s_5f045b53b1dfb4::t_97ab7773904a5e 1-26
+experiments/readback-model/runs/r2/script_tags-3-honest.json
+  s_231221b99fcbf7::t_d9e92dbb072be8 1-26
+experiments/readback-model/runs/r2/script_tags-3-overwritten.json
+  s_5f045b53b1dfb4::t_048a28677a3cd9 1-26
+experiments/readback-model/runs/r2/script_tags-4-honest.json
+  s_5f045b53b1dfb4::t_f7b17b9c1a9d2e 1-26
+experiments/readback-model/runs/r2/script_tags-4-never_applied.json
+  s_5f045b53b1dfb4::t_8f62891fd76ca6 1-26
+experiments/readback-model/runs/r3/cron-0-honest.json
+  s_5f045b53b1dfb4::t_77044d1b572177 1-31
+experiments/readback-model/runs/r3/cron-0-never_applied.json
+  s_231221b99fcbf7::t_def52c9bb51c43 1-31
+experiments/readback-model/runs/r3/cron-1-honest.json
+  s_5f045b53b1dfb4::t_4db9ee0a84740e 1-31
+experiments/readback-model/runs/r3/cron-1-wrong_value.json
+  s_5f045b53b1dfb4::t_290c0c824a93ed 1-31
+experiments/readback-model/runs/r3/cron-2-honest.json
+  s_5f045b53b1dfb4::t_0cf6c632bd9679 1-31
+experiments/readback-model/runs/r3/cron-2-overwritten.json
+  s_5f045b53b1dfb4::t_8c5dcf61766693 1-31
+experiments/readback-model/runs/r3/cron-3-honest.json
+  s_5f045b53b1dfb4::t_12df78aae85056 1-31
+experiments/readback-model/runs/r3/cron-3-never_applied.json
+  s_5f045b53b1dfb4::t_a129ab9eb8fe95 1-31
+experiments/readback-model/runs/r3/cron-4-honest.json
+  s_5f045b53b1dfb4::t_eff597a2ecaf7f 1-31
+experiments/readback-model/runs/r3/cron-4-wrong_value.json
+  s_5f045b53b1dfb4::t_28c4111ef20fda 1-31
+experiments/readback-model/runs/r3/kv_rename-0-honest.json
+  s_aff9605c3b4204::t_8811ae76ca25cb 1-27
+experiments/readback-model/runs/r3/kv_rename-0-never_applied.json
+  s_aff9605c3b4204::t_402ed26d4f5dbb 1-27
+experiments/readback-model/runs/r3/kv_rename-1-honest.json
+  s_231221b99fcbf7::t_db02942f5ed4ba 1-27
+experiments/readback-model/runs/r3/kv_rename-1-wrong_value.json
+  s_aff9605c3b4204::t_21cdf6af6487bd 1-27
+experiments/readback-model/runs/r3/kv_rename-2-honest.json
+  s_aff9605c3b4204::t_9c985477caab3d 1-27
+experiments/readback-model/runs/r3/kv_rename-2-overwritten.json
+  s_aff9605c3b4204::t_422fee38b23fbb 1-27
+experiments/readback-model/runs/r3/kv_rename-3-honest.json
+  s_aff9605c3b4204::t_038aba7f6694bb 1-27
+experiments/readback-model/runs/r3/kv_rename-3-never_applied.json
+  s_aff9605c3b4204::t_f3de353353227b 1-27
+experiments/readback-model/runs/r3/kv_rename-4-honest.json
+  s_aff9605c3b4204::t_66884f9eb13bf6 1-27
+experiments/readback-model/runs/r3/kv_rename-4-wrong_value.json
+  s_aff9605c3b4204::t_8f7f8cc9fa0e6a 1-27
+experiments/readback-model/runs/r3/script_logpush-0-honest.json
+  s_5f045b53b1dfb4::t_123f07b60f7181 1-38
+experiments/readback-model/runs/r3/script_logpush-0-wrong_value.json
+  s_5f045b53b1dfb4::t_60ced83b3de6ac 1-38
+experiments/readback-model/runs/r3/script_logpush-1-honest.json
+  s_5f045b53b1dfb4::t_775b712e765184 1-31
+experiments/readback-model/runs/r3/script_logpush-1-overwritten.json
+  s_5f045b53b1dfb4::t_2733b77f545c4e 1-31
+experiments/readback-model/runs/r3/script_logpush-2-honest.json
+  s_231221b99fcbf7::t_b2bcc3edf88bdc 1-31
+experiments/readback-model/runs/r3/script_logpush-2-never_applied.json
+  s_5f045b53b1dfb4::t_cf137e06efb121 1-31
+experiments/readback-model/runs/r3/script_logpush-3-honest.json
+  s_5f045b53b1dfb4::t_7999683146ab90 1-38
+experiments/readback-model/runs/r3/script_logpush-3-wrong_value.json
+  s_5f045b53b1dfb4::t_e3f3e91883d120 1-38
+experiments/readback-model/runs/r3/script_logpush-4-honest.json
+  s_5f045b53b1dfb4::t_3122f659f08c18 1-38
+experiments/readback-model/runs/r3/script_logpush-4-overwritten.json
+  s_5f045b53b1dfb4::t_2e54ead66fb370 1-38
+experiments/readback-model/runs/r3/script_tags-0-honest.json
+  s_5f045b53b1dfb4::t_96cbb6c2d705f6 1-26
+experiments/readback-model/runs/r3/script_tags-0-overwritten.json
+  s_5f045b53b1dfb4::t_55a2a0944a479f 1-26
+experiments/readback-model/runs/r3/script_tags-1-honest.json
+  s_5f045b53b1dfb4::t_10ebd2da8f79c4 1-26
+experiments/readback-model/runs/r3/script_tags-1-never_applied.json
+  s_5f045b53b1dfb4::t_84c298d68119c1 1-26
+experiments/readback-model/runs/r3/script_tags-2-honest.json
+  s_5f045b53b1dfb4::t_f6d3ad1582220c 1-26
+experiments/readback-model/runs/r3/script_tags-2-wrong_value.json
+  s_5f045b53b1dfb4::t_c2cc10987814a6 1-26
+experiments/readback-model/runs/r3/script_tags-3-honest.json
+  s_5f045b53b1dfb4::t_4edcc1740747a0 1-26
+experiments/readback-model/runs/r3/script_tags-3-overwritten.json
+  s_5f045b53b1dfb4::t_75a09938db6e6f 1-26
+experiments/readback-model/runs/r3/script_tags-4-honest.json
+  s_5f045b53b1dfb4::t_038c6d8d3163f8 1-26
+experiments/readback-model/runs/r3/script_tags-4-never_applied.json
+  s_5f045b53b1dfb4::t_0c8e9b89174ee6 1-26
+experiments/readback-model/score.ts
+  s_5f045b53b1dfb4::t_a4762c62e20d7b 1-44
+experiments/readback-model/writes-pass1.json
+  s_5f045b53b1dfb4::t_35c3c95be89074 1-156
+experiments/readback-model/writes.json
+  s_5f045b53b1dfb4::t_3f4eb1144a1188 1-245
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "523385fb824444e7f6e04d2546edecd2a69f61b3",
+  "prompts": {},
+  "sessions": {
+    "s_231221b99fcbf7": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a1176a-4538-7369-8003-75cbe8c7d418",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_5f045b53b1dfb4": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a177a9-20df-71ac-82c2-3c2b52888d76",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    },
+    "s_aff9605c3b4204": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0806f-f6e6-7378-a167-08e626c7de42",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
