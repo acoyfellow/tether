@@ -2,6 +2,8 @@
 
 > **Disproven. This did not work.** On a frozen eval of 120 real cases, a regex beat tether (F1 0.974 against 0.874), and tether flagged 48% of honest claims. Purpose-built grounding models such as [LettuceDetect](https://github.com/KRLabsOrg/LettuceDetect) and [MiniCheck](https://github.com/Liyan06/MiniCheck) fit this problem. See [FIT.md](FIT.md).
 
+> **Readback on real writes: go.** In a seeded sample of real Cloudflare writes from Pi sessions, 4 of 54 that the agent called done did not land as claimed (7.4%, 95% upper bound 16%). In all four the API said ok; the deploy went to the wrong account or did not work live. Reading back behaviour, not config, catches these. See [experiments/readback-real/FINDINGS.md](experiments/readback-real/FINDINGS.md).
+
 **Check what an agent says it did against the output it did it with.**
 
 tether reads an agent's final message and the command output behind it. It draws a line from each claim to the evidence for that claim, marks each line held, broken or unbacked, and gives a gate verdict: pass, retry or ask.
