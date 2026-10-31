@@ -1,0 +1,49 @@
+.gitignore
+  s_5ddfc8f4108175::t_2758c28f528927 23
+README.md
+  s_5ddfc8f4108175::t_c65b4add4b3aaa 5-6
+experiments/readback-real/FINDINGS.md
+  s_5ddfc8f4108175::t_ff903222506208 1-40
+experiments/readback-real/ab/README.md
+  s_5ddfc8f4108175::t_2862a5c0191c3c 1-13
+experiments/readback-real/ab/no-route/package.json
+  s_5ddfc8f4108175::t_c3c234ddd6c4a5 1
+experiments/readback-real/ab/no-route/src/index.ts
+  s_5ddfc8f4108175::t_876d1079ff797f 1-5
+experiments/readback-real/ab/no-route/wrangler.jsonc
+  s_5ddfc8f4108175::t_72ef45a6af7964 1
+experiments/readback-real/ab/run.sh
+  s_5ddfc8f4108175::t_08f94faa655a13 1-45
+experiments/readback-real/ab/throws/package.json
+  s_5ddfc8f4108175::t_b2f5f969df8758 1
+experiments/readback-real/ab/throws/src/index.ts
+  s_5ddfc8f4108175::t_4448374c982765 1-6
+experiments/readback-real/ab/throws/wrangler.jsonc
+  s_5ddfc8f4108175::t_73d17465510f95 1
+experiments/readback-real/ab/wrong-path/package.json
+  s_5ddfc8f4108175::t_71e19413b5009b 1
+experiments/readback-real/ab/wrong-path/src/index.ts
+  s_5ddfc8f4108175::t_230f05d50b7693 1-7
+experiments/readback-real/ab/wrong-path/wrangler.jsonc
+  s_5ddfc8f4108175::t_493658af31d733 1
+experiments/readback-real/extension/readback.test.ts
+  s_5ddfc8f4108175::t_88be0d31c13628 1-48
+experiments/readback-real/extension/readback.ts
+  s_5ddfc8f4108175::t_d9752597b0190b 1-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "278d10f7a2998839b42b6d0be94675bf19464add",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
