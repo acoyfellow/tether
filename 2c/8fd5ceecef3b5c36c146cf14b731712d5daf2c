@@ -1,0 +1,25 @@
+experiments/readback-v2/CONTRACT.md
+  s_5f045b53b1dfb4::t_ff763cbfb03b6a 1-23
+experiments/readback-v2/gen.ts
+  s_5f045b53b1dfb4::t_5c6ba84232a031 1-44
+experiments/readback-v2/run.ts
+  s_5f045b53b1dfb4::t_cd1deb5f573046 1-136
+experiments/readback-v2/score.ts
+  s_5f045b53b1dfb4::t_536cba897e4c42 1-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2c8fd5ceecef3b5c36c146cf14b731712d5daf2c",
+  "prompts": {},
+  "sessions": {
+    "s_5f045b53b1dfb4": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a177a9-20df-71ac-82c2-3c2b52888d76",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
