@@ -21,3 +21,7 @@ experiments/readback-real/*.log
 experiments/readback-real/.label/
 experiments/readback-real/labels-why.json
 experiments/readback-real/ab/out/
+experiments/readback-real/ab2/out/
+experiments/readback-real/ab2/out-*/
+experiments/readback-real/ab2/run.pid
+experiments/readback-real/ab2/*.log
