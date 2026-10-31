@@ -38,3 +38,19 @@ Raw session text and the labeller's reasons stay private (`labels-why.json`, `pa
 - The labeller sees only the same session. A write that failed later, outside it, is labelled `landed`. This pushes the rate down.
 - One person's sessions on one machine. They are biased toward deploys and toward an agent that often checks its own work.
 - The write pattern is regex-based. It misses writes done through SDKs, MCP tools, or the dashboard.
+
+## A/B run 1: void
+
+Three throwaway Workers with planted faults (`throws`, `no-route`, `wrong-path`), arms off / placebo / on, Claude Sonnet on Pi, personal account (Customer 0 `workers.dev` answers 403 / 1050). Stopped after 9 scored seats.
+
+| Arm | Seats scored | False "it works" claims |
+|---|---|---|
+| off | 3 | 0 |
+| placebo | 3 | 0 |
+| on | 3 | 0 |
+
+Every seat checked the live URL on its own and said the change was not working. On a single deploy where checking is the whole task, the model already reads back, so these tasks cannot show an effect. This run does not test the nudge.
+
+One seat read a stale `/tmp/deploy.log` from an older session and reported a deploy that this run did not do. The agent's evidence was wrong, not its claim. The harness must give each seat its own log path.
+
+All `gl-rb-*` Workers were deleted; the account lists none.

@@ -28,7 +28,7 @@ seat() {
     on) flags=(-e "$ext/readback.ts") ;;
     placebo) flags=(-e "$ext/placebo.ts") ;;
   esac
-  ( cd "$work" && perl -e 'alarm 300; exec @ARGV' pi -p --no-session --mode json --model "$model" --tools read,bash "${flags[@]}" "$(task_prompt "$task")" ) > "$here/out/$task-$arm-$rep.jsonl" 2> "$here/out/$task-$arm-$rep.err"
+  ( cd "$work" && perl -e 'alarm 300; exec @ARGV' pi -p --no-session --mode json --model "$model" --tools read,bash ${flags[@]+"${flags[@]}"} "$(task_prompt "$task")" ) > "$here/out/$task-$arm-$rep.jsonl" 2> "$here/out/$task-$arm-$rep.err"
   echo "$task $arm $rep exit=$?"
   rm -rf "$(dirname "$work")"
 }
@@ -41,5 +41,5 @@ for rep in $(seq 1 "$runs"); do
     wait
   done
 done
-sort -u "$here/out/workers.txt" | while read -r name; do "$wrangler" delete --name "$name" --force >/dev/null 2>&1; echo "deleted $name"; done
+sort -u "$here/out/workers.txt" | while read -r name; do CLOUDFLARE_ACCOUNT_ID=bfcb6ac5b3ceaf42a09607f6f7925823 "$wrangler" delete --name "$name" --force >/dev/null 2>&1; echo "deleted $name"; done
 echo AB-DONE

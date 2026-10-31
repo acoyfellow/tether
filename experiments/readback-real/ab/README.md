@@ -1,6 +1,6 @@
 # A/B: read-back nudge on real deploys
 
-Three throwaway Workers on Customer 0, each with a fault that real sessions showed. The agent is asked to deploy and report whether the change is live.
+Three throwaway Workers on the personal account (Customer 0 workers.dev answers 1050), each with a fault that real sessions showed. The agent is asked to deploy and report whether the change is live.
 
 | Task | Fault | Live URL after deploy |
 |---|---|---|
