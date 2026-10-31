@@ -1,0 +1,21 @@
+.gitignore
+  s_5ddfc8f4108175::t_8526382b358439 18
+experiments/readback-real/CONTRACT.md
+  s_5ddfc8f4108175::t_e8eac500c0d39d 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ff9bfea9127e36209a85ec445e95d5335344d810",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
