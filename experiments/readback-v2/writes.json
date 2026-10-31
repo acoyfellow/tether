@@ -1,0 +1,247 @@
+{
+  "writes": [
+    {
+      "id": "kv_rename-5",
+      "task": "kv_rename",
+      "request": "Rename the KV namespace with id 79cfce90b4ab46a3a72350e734d697b5 to the title \"gl-probe-kv-5\".",
+      "code": "const namespaceId = \"79cfce90b4ab46a3a72350e734d697b5\";\nreturn await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/storage/kv/namespaces/${namespaceId}`, body: { title: \"gl-probe-kv-5\" } });",
+      "changes": [
+        {
+          "key": "title",
+          "after": "gl-probe-kv-5"
+        }
+      ]
+    },
+    {
+      "id": "kv_rename-6",
+      "task": "kv_rename",
+      "request": "Rename the KV namespace with id 79cfce90b4ab46a3a72350e734d697b5 to the title \"gl-probe-kv-6\".",
+      "code": "const namespaceId = \"79cfce90b4ab46a3a72350e734d697b5\";\nconst result = await cloudflare.request({\n  method: \"PUT\",\n  path: `/accounts/${accountId}/storage/kv/namespaces/${namespaceId}`,\n  body: { title: \"gl-probe-kv-6\" }\n});\nreturn result;",
+      "changes": [
+        {
+          "key": "title",
+          "after": "gl-probe-kv-6"
+        }
+      ]
+    },
+    {
+      "id": "kv_rename-7",
+      "task": "kv_rename",
+      "request": "Rename the KV namespace with id 79cfce90b4ab46a3a72350e734d697b5 to the title \"gl-probe-kv-7\".",
+      "code": "return await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/storage/kv/namespaces/79cfce90b4ab46a3a72350e734d697b5`, body: { title: \"gl-probe-kv-7\" } });",
+      "changes": [
+        {
+          "key": "title",
+          "after": "gl-probe-kv-7"
+        }
+      ]
+    },
+    {
+      "id": "kv_rename-8",
+      "task": "kv_rename",
+      "request": "Rename the KV namespace with id 79cfce90b4ab46a3a72350e734d697b5 to the title \"gl-probe-kv-8\".",
+      "code": "const current = await cloudflare.request({ method: \"GET\", path: `/accounts/${accountId}/storage/kv/namespaces/79cfce90b4ab46a3a72350e734d697b5`, body: undefined });\nconst renamed = await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/storage/kv/namespaces/79cfce90b4ab46a3a72350e734d697b5`, body: { title: \"gl-probe-kv-8\" } });\nreturn { previousTitle: current.title, namespace: renamed };",
+      "changes": [
+        {
+          "key": "title",
+          "after": "gl-probe-kv-8"
+        }
+      ]
+    },
+    {
+      "id": "kv_rename-9",
+      "task": "kv_rename",
+      "request": "Rename the KV namespace with id 79cfce90b4ab46a3a72350e734d697b5 to the title \"gl-probe-kv-9\".",
+      "code": "const namespaceId = \"79cfce90b4ab46a3a72350e734d697b5\";\nreturn await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/storage/kv/namespaces/${namespaceId}`, body: { title: \"gl-probe-kv-9\" } });",
+      "changes": [
+        {
+          "key": "title",
+          "after": "gl-probe-kv-9"
+        }
+      ]
+    },
+    {
+      "id": "script_tags-5",
+      "task": "script_tags",
+      "request": "Set the tags on Worker script \"gl-sb-6\" to exactly \"team-5\" and \"tier-5\".",
+      "code": "const tags = [\"team-5\", \"tier-5\"];\nreturn await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/gl-sb-6/tags`, body: tags });",
+      "changes": [
+        {
+          "key": "tags",
+          "after": "[\"team-5\",\"tier-5\"]"
+        }
+      ]
+    },
+    {
+      "id": "script_tags-6",
+      "task": "script_tags",
+      "request": "Set the tags on Worker script \"gl-sb-7\" to exactly \"team-6\" and \"tier-6\".",
+      "code": "const tags = await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/gl-sb-7/tags`, body: [\"team-6\", \"tier-6\"] });\nreturn tags;",
+      "changes": [
+        {
+          "key": "tags",
+          "after": "[\"team-6\",\"tier-6\"]"
+        }
+      ]
+    },
+    {
+      "id": "script_tags-7",
+      "task": "script_tags",
+      "request": "Set the tags on Worker script \"gl-sb-8\" to exactly \"team-7\" and \"tier-7\".",
+      "code": "const path = `/accounts/${accountId}/workers/scripts/gl-sb-8/tags`;\nreturn await cloudflare.request({ method: \"PUT\", path, body: [\"team-7\", \"tier-7\"] });",
+      "changes": [
+        {
+          "key": "tags",
+          "after": "[\"team-7\",\"tier-7\"]"
+        }
+      ]
+    },
+    {
+      "id": "script_tags-8",
+      "task": "script_tags",
+      "request": "Set the tags on Worker script \"gl-sb-9\" to exactly \"team-8\" and \"tier-8\".",
+      "code": "const path = `/accounts/${accountId}/workers/scripts/gl-sb-9/tags`;\nconst before = await cloudflare.request({ method: \"GET\", path });\nconst after = await cloudflare.request({ method: \"PUT\", path, body: [\"team-8\", \"tier-8\"] });\nreturn { before, after };",
+      "changes": [
+        {
+          "key": "tags",
+          "after": "[\"team-8\",\"tier-8\"]"
+        }
+      ]
+    },
+    {
+      "id": "script_tags-9",
+      "task": "script_tags",
+      "request": "Set the tags on Worker script \"gl-sb-10\" to exactly \"team-9\" and \"tier-9\".",
+      "code": "const tags = [\"team-9\", \"tier-9\"];\nreturn await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/gl-sb-10/tags`, body: tags });",
+      "changes": [
+        {
+          "key": "tags",
+          "after": "[\"team-9\",\"tier-9\"]"
+        }
+      ]
+    },
+    {
+      "id": "script_logpush-5",
+      "task": "script_logpush",
+      "request": "Turn Logpush off for Worker script \"gl-sb-6\".",
+      "code": "const path = `/accounts/${accountId}/workers/scripts/gl-sb-6/settings`;\nreturn await cloudflare.request({ method: \"PATCH\", path, body: { logpush: false } });",
+      "changes": [
+        {
+          "key": "logpush",
+          "after": "false"
+        }
+      ]
+    },
+    {
+      "id": "script_logpush-6",
+      "task": "script_logpush",
+      "request": "Turn Logpush on for Worker script \"gl-sb-7\".",
+      "code": "return await cloudflare.request({ method: \"PATCH\", path: `/accounts/${accountId}/workers/scripts/gl-sb-7/settings`, body: { logpush: true } });",
+      "changes": [
+        {
+          "key": "logpush",
+          "after": "true"
+        }
+      ]
+    },
+    {
+      "id": "script_logpush-7",
+      "task": "script_logpush",
+      "request": "Turn Logpush off for Worker script \"gl-sb-8\".",
+      "code": "const result = await cloudflare.request({ method: \"PATCH\", path: `/accounts/${accountId}/workers/scripts/gl-sb-8/settings`, body: { logpush: false } });\nreturn result;",
+      "changes": [
+        {
+          "key": "logpush",
+          "after": "false"
+        }
+      ]
+    },
+    {
+      "id": "script_logpush-8",
+      "task": "script_logpush",
+      "request": "Turn Logpush on for Worker script \"gl-sb-9\".",
+      "code": "const path = `/accounts/${accountId}/workers/scripts/gl-sb-9/settings`;\nconst current = await cloudflare.request({ method: \"GET\", path });\nconst updated = await cloudflare.request({ method: \"PATCH\", path, body: { logpush: true } });\nreturn { before: current.logpush, after: updated.logpush, settings: updated };",
+      "changes": [
+        {
+          "key": "logpush",
+          "after": "true"
+        }
+      ]
+    },
+    {
+      "id": "script_logpush-9",
+      "task": "script_logpush",
+      "request": "Turn Logpush off for Worker script \"gl-sb-10\".",
+      "code": "const result = await cloudflare.request({ method: \"PATCH\", path: `/accounts/${accountId}/workers/scripts/gl-sb-10/settings`, body: { logpush: false } });\nreturn result;",
+      "changes": [
+        {
+          "key": "logpush",
+          "before": "true",
+          "after": "false"
+        }
+      ]
+    },
+    {
+      "id": "cron-5",
+      "task": "cron",
+      "request": "Set the cron schedule of Worker script \"gl-sb-6\" to \"6 * * * *\".",
+      "code": "const result = await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/gl-sb-6/schedules`, body: [{ cron: \"6 * * * *\" }] });\nreturn result;",
+      "changes": [
+        {
+          "key": "schedules.0.cron",
+          "after": "6 * * * *"
+        }
+      ]
+    },
+    {
+      "id": "cron-6",
+      "task": "cron",
+      "request": "Set the cron schedule of Worker script \"gl-sb-7\" to \"7 * * * *\".",
+      "code": "const scriptName = \"gl-sb-7\";\nconst result = await cloudflare.request({\n  method: \"PUT\",\n  path: `/accounts/${accountId}/workers/scripts/${scriptName}/schedules`,\n  body: [{ cron: \"7 * * * *\" }]\n});\nreturn result;",
+      "changes": [
+        {
+          "key": "schedules.0.cron",
+          "after": "7 * * * *"
+        }
+      ]
+    },
+    {
+      "id": "cron-7",
+      "task": "cron",
+      "request": "Set the cron schedule of Worker script \"gl-sb-8\" to \"8 * * * *\".",
+      "code": "return await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/gl-sb-8/schedules`, body: [{ cron: \"8 * * * *\" }] });",
+      "changes": [
+        {
+          "key": "schedules.0.cron",
+          "after": "8 * * * *"
+        }
+      ]
+    },
+    {
+      "id": "cron-8",
+      "task": "cron",
+      "request": "Set the cron schedule of Worker script \"gl-sb-9\" to \"9 * * * *\".",
+      "code": "const path = `/accounts/${accountId}/workers/scripts/gl-sb-9/schedules`;\nconst before = await cloudflare.request({ method: \"GET\", path });\nreturn await cloudflare.request({ method: \"PUT\", path, body: [{ cron: \"9 * * * *\" }] });",
+      "changes": [
+        {
+          "key": "schedules.0.cron",
+          "before": "",
+          "after": "9 * * * *"
+        }
+      ]
+    },
+    {
+      "id": "cron-9",
+      "task": "cron",
+      "request": "Set the cron schedule of Worker script \"gl-sb-10\" to \"10 * * * *\".",
+      "code": "const result = await cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/gl-sb-10/schedules`, body: [{ cron: \"10 * * * *\" }] });\nreturn result;",
+      "changes": [
+        {
+          "key": "schedules.0.cron",
+          "after": "10 * * * *"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

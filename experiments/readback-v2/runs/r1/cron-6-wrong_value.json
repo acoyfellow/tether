@@ -1,0 +1,31 @@
+{
+  "id": "cron-6-wrong_value",
+  "task": "cron",
+  "fault": "wrong_value",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": null,
+    "fault_ok": true
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-7/schedules",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "schedules.0.cron",
+      "expected": "7 * * * *",
+      "held": false
+    }
+  ],
+  "observed": {
+    "schedules": [
+      {
+        "cron": "8 * * * *",
+        "created_on": "2026-10-31T11:31:11.981051Z",
+        "modified_on": "2026-10-31T11:31:11.981051Z"
+      }
+    ]
+  },
+  "ms": 284.61175000000367
+}

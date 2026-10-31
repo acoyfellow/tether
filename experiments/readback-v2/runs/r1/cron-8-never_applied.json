@@ -1,0 +1,31 @@
+{
+  "id": "cron-8-never_applied",
+  "task": "cron",
+  "fault": "never_applied",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": null,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-9/schedules",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "schedules.0.cron",
+      "expected": "9 * * * *",
+      "held": false
+    }
+  ],
+  "observed": {
+    "schedules": [
+      {
+        "cron": "0 * * * *",
+        "created_on": "2026-10-31T11:31:18.256963Z",
+        "modified_on": "2026-10-31T11:31:18.256963Z"
+      }
+    ]
+  },
+  "ms": 162.38733299999876
+}

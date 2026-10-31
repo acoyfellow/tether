@@ -1,0 +1,38 @@
+{
+  "id": "script_logpush-7-never_applied",
+  "task": "script_logpush",
+  "fault": "never_applied",
+  "setup": {
+    "reset_ok": false,
+    "write_ok": null,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-8/settings",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "logpush",
+      "expected": "false",
+      "held": true
+    }
+  ],
+  "observed": {
+    "placement": {},
+    "compatibility_date": "2025-09-01",
+    "compatibility_flags": [],
+    "usage_model": "standard",
+    "tags": [
+      "team-8",
+      "tier-8"
+    ],
+    "tail_consumers": [],
+    "logpush": false,
+    "annotations": {
+      "workers/triggered_by": "version_upload"
+    },
+    "bindings": []
+  },
+  "ms": 200.88816700000098
+}

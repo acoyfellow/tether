@@ -1,0 +1,26 @@
+{
+  "id": "script_tags-7-wrong_value",
+  "task": "script_tags",
+  "fault": "wrong_value",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": null,
+    "fault_ok": true
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-8/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-7\",\"tier-7\"]",
+      "held": false
+    }
+  ],
+  "observed": [
+    "team-8",
+    "tier-8"
+  ],
+  "ms": 429.49166700000023
+}

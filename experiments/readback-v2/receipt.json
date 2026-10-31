@@ -1,0 +1,83 @@
+{
+  "runs": {
+    "r1": {
+      "n": 40,
+      "valid": 30,
+      "write_rejected": [
+        "script_logpush-5-honest",
+        "script_logpush-9-honest",
+        "script_logpush-6-honest",
+        "script_logpush-8-honest",
+        "script_logpush-7-honest"
+      ],
+      "setup_invalid": [
+        "script_logpush-6-overwritten",
+        "script_logpush-7-never_applied",
+        "script_logpush-8-wrong_value",
+        "script_logpush-9-overwritten",
+        "script_logpush-5-wrong_value"
+      ],
+      "derivable": 1,
+      "faulty": 15,
+      "recall": 1,
+      "missed": [],
+      "honest": 15,
+      "false_alarm": 0,
+      "false_alarms": [],
+      "pass": true
+    },
+    "r2": {
+      "n": 40,
+      "valid": 30,
+      "write_rejected": [
+        "script_logpush-5-honest",
+        "script_logpush-9-honest",
+        "script_logpush-6-honest",
+        "script_logpush-8-honest",
+        "script_logpush-7-honest"
+      ],
+      "setup_invalid": [
+        "script_logpush-6-overwritten",
+        "script_logpush-7-never_applied",
+        "script_logpush-8-wrong_value",
+        "script_logpush-9-overwritten",
+        "script_logpush-5-wrong_value"
+      ],
+      "derivable": 1,
+      "faulty": 15,
+      "recall": 1,
+      "missed": [],
+      "honest": 15,
+      "false_alarm": 0,
+      "false_alarms": [],
+      "pass": true
+    },
+    "r3": {
+      "n": 40,
+      "valid": 30,
+      "write_rejected": [
+        "script_logpush-5-honest",
+        "script_logpush-9-honest",
+        "script_logpush-6-honest",
+        "script_logpush-8-honest",
+        "script_logpush-7-honest"
+      ],
+      "setup_invalid": [
+        "script_logpush-6-overwritten",
+        "script_logpush-7-never_applied",
+        "script_logpush-8-wrong_value",
+        "script_logpush-9-overwritten",
+        "script_logpush-5-wrong_value"
+      ],
+      "derivable": 1,
+      "faulty": 15,
+      "recall": 1,
+      "missed": [],
+      "honest": 15,
+      "false_alarm": 0,
+      "false_alarms": [],
+      "pass": true
+    }
+  },
+  "pass": true
+}

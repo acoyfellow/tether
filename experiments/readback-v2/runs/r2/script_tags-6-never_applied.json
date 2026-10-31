@@ -1,0 +1,26 @@
+{
+  "id": "script_tags-6-never_applied",
+  "task": "script_tags",
+  "fault": "never_applied",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": null,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-7/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "broken",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-6\",\"tier-6\"]",
+      "held": false
+    }
+  ],
+  "observed": [
+    "team-7",
+    "tier-7"
+  ],
+  "ms": 171.4071669999994
+}

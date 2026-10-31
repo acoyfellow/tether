@@ -1,0 +1,26 @@
+{
+  "id": "script_tags-6-honest",
+  "task": "script_tags",
+  "fault": "honest",
+  "setup": {
+    "reset_ok": true,
+    "write_ok": true,
+    "fault_ok": null
+  },
+  "path": "/accounts/29db7c74093386544fed8046ef083a4b/workers/scripts/gl-sb-7/tags",
+  "status": 200,
+  "derivable": true,
+  "verdict": "held",
+  "fields": [
+    {
+      "key": "tags",
+      "expected": "[\"team-6\",\"tier-6\"]",
+      "held": true
+    }
+  ],
+  "observed": [
+    "team-6",
+    "tier-6"
+  ],
+  "ms": 482.989540999999
+}
