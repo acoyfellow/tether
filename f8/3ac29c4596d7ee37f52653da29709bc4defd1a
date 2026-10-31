@@ -1,0 +1,31 @@
+experiments/readback-real/FINDINGS.md
+  s_5ddfc8f4108175::t_201c015501e9d8 41-56
+experiments/readback-real/ab/README.md
+  s_5ddfc8f4108175::t_e6ccb923557505 3
+experiments/readback-real/ab/no-route/wrangler.jsonc
+  s_5ddfc8f4108175::t_19cf9ff2457ccf 1
+experiments/readback-real/ab/run.sh
+  s_5ddfc8f4108175::t_d8d9f0aab9b264 31,44
+experiments/readback-real/ab/score.py
+  s_5ddfc8f4108175::t_8b3b94548267ae 1-55
+experiments/readback-real/ab/throws/wrangler.jsonc
+  s_5ddfc8f4108175::t_c36fe6a80906f8 1
+experiments/readback-real/ab/wrong-path/wrangler.jsonc
+  s_5ddfc8f4108175::t_f83109aa2d12c1 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f83ac29c4596d7ee37f52653da29709bc4defd1a",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
