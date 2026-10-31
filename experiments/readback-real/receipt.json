@@ -1,0 +1,10 @@
+{
+ "labelled": 57,
+ "definite": 54,
+ "landed": 50,
+ "not_landed": 4,
+ "unknown": 3,
+ "rate": 0.0741,
+ "upper_95": 0.1615,
+ "verdict": "go"
+}

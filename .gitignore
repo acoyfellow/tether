@@ -16,3 +16,7 @@ receipts/deployed-url.txt
 /tools/oxlint/
 .DS_Store
 experiments/readback-real/*.jsonl
+experiments/readback-real/packets.jsonl
+experiments/readback-real/*.log
+experiments/readback-real/.label/
+experiments/readback-real/labels-why.json
