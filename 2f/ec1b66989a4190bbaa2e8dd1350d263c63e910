@@ -1,0 +1,33 @@
+.gitignore
+  s_5ddfc8f4108175::t_889ef384011de6 19-22
+experiments/readback-real/label-prompt.md
+  s_5ddfc8f4108175::t_c4ab7f29f281e4 1-19
+experiments/readback-real/labels.json
+  s_5ddfc8f4108175::t_7015deb4c3c2bd 1-287
+experiments/readback-real/mine.py
+  s_5ddfc8f4108175::t_ac33f58b2ad39b 1-96
+experiments/readback-real/packets.py
+  s_5ddfc8f4108175::t_00567c1a5c9417 1-47
+experiments/readback-real/receipt.json
+  s_5ddfc8f4108175::t_f988b800c5c749 1-10
+experiments/readback-real/score.py
+  s_5ddfc8f4108175::t_0d6222b24492dd 1-50
+proof/readback-real.sh
+  s_5ddfc8f4108175::t_476d012b5c3c7d 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2fec1b66989a4190bbaa2e8dd1350d263c63e910",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
