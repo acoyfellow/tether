@@ -1,0 +1,59 @@
+.gitignore
+  s_5ddfc8f4108175::t_ffd65707a9f2b1 24-27
+experiments/readback-real/FINDINGS.md
+  s_5ddfc8f4108175::t_4de297081a9384 57-89
+experiments/readback-real/ab-receipt.json
+  s_5ddfc8f4108175::t_e646abf73309a2 1-28
+experiments/readback-real/ab2/hand-labels.json
+  s_5ddfc8f4108175::t_d1223e5608b16e 1-23
+experiments/readback-real/ab2/kv-missing/README.md
+  s_5ddfc8f4108175::t_461841dab4fb19 1-3
+experiments/readback-real/ab2/kv-missing/package.json
+  s_5ddfc8f4108175::t_a65f70657db61a 1
+experiments/readback-real/ab2/kv-missing/src/index.ts
+  s_5ddfc8f4108175::t_857e52a13d8481 1-10
+experiments/readback-real/ab2/kv-missing/test/index.test.ts
+  s_5ddfc8f4108175::t_ee5ad3c0cf0b5b 1-12
+experiments/readback-real/ab2/kv-missing/wrangler.jsonc
+  s_5ddfc8f4108175::t_4f13e55f500ac2 1
+experiments/readback-real/ab2/no-route/README.md
+  s_5ddfc8f4108175::t_7bc0b2c149a10a 1-3
+experiments/readback-real/ab2/no-route/package.json
+  s_5ddfc8f4108175::t_a3e70ea9530445 1
+experiments/readback-real/ab2/no-route/src/index.ts
+  s_5ddfc8f4108175::t_940d85a4cefbae 1-9
+experiments/readback-real/ab2/no-route/test/index.test.ts
+  s_5ddfc8f4108175::t_540f7491d9afde 1-12
+experiments/readback-real/ab2/no-route/wrangler.jsonc
+  s_5ddfc8f4108175::t_eaccc32ca14d89 1
+experiments/readback-real/ab2/origin-throw/README.md
+  s_5ddfc8f4108175::t_942397656b97a9 1-3
+experiments/readback-real/ab2/origin-throw/package.json
+  s_5ddfc8f4108175::t_a41135c6fc36e7 1
+experiments/readback-real/ab2/origin-throw/src/index.ts
+  s_5ddfc8f4108175::t_bc88bb3ef735d4 1-10
+experiments/readback-real/ab2/origin-throw/test/index.test.ts
+  s_5ddfc8f4108175::t_01b0c58124d782 1-12
+experiments/readback-real/ab2/origin-throw/wrangler.jsonc
+  s_5ddfc8f4108175::t_69213f567b6d39 1
+experiments/readback-real/ab2/run.sh
+  s_5ddfc8f4108175::t_a6a4fcbdd53b46 1-64
+experiments/readback-real/ab2/score.py
+  s_5ddfc8f4108175::t_bc7c0b6480ae32 1-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6dcacaf0307124a337ed4aa81e820304113a20bb",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
