@@ -15,3 +15,4 @@ node_modules
 receipts/deployed-url.txt
 /tools/oxlint/
 .DS_Store
+experiments/readback-real/*.jsonl
