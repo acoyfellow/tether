@@ -43,7 +43,7 @@ seat() {
     placebo) flags=(-e "$ext/placebo.ts") ;;
   esac
   ( cd "$work" && TMPDIR="$work/.tmp" && mkdir -p "$TMPDIR" && export TMPDIR \
-      && perl -e 'alarm 420; exec @ARGV' pi -p --no-session --mode json --model "$model" --tools read,bash,edit,write ${flags[@]+"${flags[@]}"} "$(prompt)" ) \
+      && perl -e 'alarm 420; exec @ARGV' pi -p --no-session --no-extensions --no-skills -e "$PROVIDER_EXTENSION" --mode json --model "$model" --tools read,bash,edit,write ${flags[@]+"${flags[@]}"} "$(prompt)" ) \
     > "$out/$task-$arm-$rep.jsonl" 2> "$out/$task-$arm-$rep.err"
   echo "$task $arm $rep exit=$?"
   rm -rf "$(dirname "$work")"

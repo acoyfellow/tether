@@ -75,7 +75,7 @@ What the run does show:
 - In the one `origin-throw` seat with read-back on that started to report "it works", the read-back's 500 on `/` made it add the failure to the summary.
 - The read-back fired in all 6 `on` seats: 10 times it reported a failing live URL, and 35 times it found no URL in the output it was given, mostly because the agents piped the deploy to a file.
 
-Contamination: a global pi-frugal package still loaded in all 18 seats despite `--no-extensions` and blocked `wrangler deploy` and `sleep`. It affected every arm the same way. It pushed agents to write the deploy output to a file, which hides the printed URL from the read-back.
+Contamination: `ab2/run.sh` did not pass `--no-extensions`, so every seat loaded Jordan's full Pi setup, including pi-frugal. pi-frugal blocked `wrangler deploy` 115 times and long `sleep`s 90 times across the 18 seats, the same way in every arm. It pushed agents to write the deploy output to a file, which hides the printed URL from the read-back. `scripts/check-clean-pi-dir.sh` now proves the fix: a 30 s sleep is BLOCKED with default flags and runs with `--no-extensions`. The harness passes that flag from now on. Run r3 was not repeated.
 
 ## Where this leaves tether
 
