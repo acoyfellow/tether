@@ -1,0 +1,21 @@
+.gitignore
+  s_5ddfc8f4108175::t_d981c860b4d728 28-29
+LICENSE
+  s_5ddfc8f4108175::t_a281ade1bc76ac 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "47021f775f96b843df0de4fb0df11e905f7bcfe0",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
