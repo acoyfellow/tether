@@ -25,3 +25,5 @@ experiments/readback-real/ab2/out/
 experiments/readback-real/ab2/out-*/
 experiments/readback-real/ab2/run.pid
 experiments/readback-real/ab2/*.log
+experiments/readback-real/.pi/
+evals/
