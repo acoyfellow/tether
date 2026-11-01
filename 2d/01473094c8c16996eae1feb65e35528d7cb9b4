@@ -1,0 +1,23 @@
+experiments/readback-real/FINDINGS.md
+  s_5ddfc8f4108175::t_37f040847bf6d2 78
+experiments/readback-real/ab2/run.sh
+  s_5ddfc8f4108175::t_f709a2be56ceba 46
+scripts/check-clean-pi-dir.sh
+  s_5ddfc8f4108175::t_9cbe7e5a68f394 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2d01473094c8c16996eae1feb65e35528d7cb9b4",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
